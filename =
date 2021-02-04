@@ -28,7 +28,6 @@
 \usepackage{wasysym}
 \usepackage{pifont}
 \usetikzlibrary{matrix}
-\newcommand*{\mybox}[1]{\framebox{#1}}
 
 
 \usepackage{pgfplots}
@@ -683,10 +682,10 @@ c -- [photon] d,
   191) Film [2]
 
   \[
-    \underbrace{\text{\mybox{Historic Data}} \to \text{\mybox{DAY Algorithm}} \to \text{\mybox{Predictive Model}}}_\text{this} 
+    \underbrace{\text{Historic Data} \to \text{DAY Algorithm} \to \text{Predictive Model}}_\text{this} 
   \]
   \[
-    \text{\mybox{New Data}} \to \text{\mybox{Predictive Model}} \to \text{\mybox{Prediction}}
+    \text{New Data} \to \text{Predictive Model} \to \text{Prediction}
   \]
 
   192) Film [1]
@@ -696,7 +695,7 @@ c -- [photon] d,
 
   193) Film [6]
   \[
-  \texttt{for(\$ = n; \$ < n + 4;  \$++)\{\ldots }
+  \texttt{for(\$ = n, \$ < n + m,  \$++)\{\ldots }
   \]
 
   194) Song [3]
@@ -716,7 +715,7 @@ c -- [photon] d,
 
   197) Film [3]
   \[
-    \texttt{br = [}\underbrace{\texttt{1.0/sqrt(1.0-v**2/c**2)}}_{\textrm{this}}\texttt{,\ldots ]} 
+  \texttt{br = [1/sqrt(1-v**2/c**2) ]} 
   \]
   198) Song[2] 
     \begin{figure}[htbp!]
