@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2021.1.27)  4 FEB 2021 22:55
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2021.1.27)  6 FEB 2021 15:32
  restricted system commands enabled.
 **dingbats2.tex
 (./dingbats2.tex
@@ -1273,7 +1273,7 @@ Overfull \hbox (47.25409pt too wide) in paragraph at lines 324--325
 [][] 
  []
 
-<dice.pdf, id=19, 258.9675pt x 86.3225pt>
+<dice.pdf, id=18, 258.9675pt x 86.3225pt>
 File: dice.pdf Graphic file (type pdf)
 <use dice.pdf>
 Package luatex.def Info: dice.pdf  used on input line 330.
@@ -1365,7 +1365,7 @@ LaTeX Font Info:    Trying to load font information for U+ding on input line 522
 (/usr/share/texlive/texmf-dist/tex/latex/bbding/Uding.fd
 File: Uding.fd 1996/02/01 v1.0 BBding font definitions
 )
-<./pinkmoon.jpg, id=36, 240.9pt x 240.9pt>
+<./pinkmoon.jpg, id=35, 240.9pt x 240.9pt>
 File: ./pinkmoon.jpg Graphic file (type jpg)
 <use ./pinkmoon.jpg>
 Package luatex.def Info: ./pinkmoon.jpg  used on input line 528.
@@ -1375,10 +1375,11 @@ Package luatex.def Info: ./pinkmoon.jpg  used on input line 528.
 LaTeX Font Info:    Trying to load font information for U+ifsym on input line 70
 9.
  (/usr/share/texlive/texmf-dist/tex/latex/ifsym/uifsym.fd) [6]
-Overfull \hbox (26.40884pt too wide) in paragraph at lines 767--768
+Overfull \hbox (26.40884pt too wide) in paragraph at lines 772--773
 [][] 
  []
 
+[7] [8]
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -1413,7 +1414,7 @@ braces):
 >  {english/babelname}  =>  {american}
 >  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}.
-[7] [8] (./dingbats2.aux
+ [9] (./dingbats2.aux
 LaTeX Info: Redefining \rmfamily on input line 2.
 LaTeX Info: Redefining \sffamily on input line 2.
 LaTeX Info: Redefining \ttfamily on input line 2.
@@ -1424,13 +1425,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 )
 
 Here is how much of LuaTeX's memory you used:
- 42276 strings out of 481365
+ 42302 strings out of 481365
  125016,1648299 words of node,token memory allocated
- 692 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 41 attribute, 65 glue_spec
-, 41 attribute_list, 2 write nodes
-   avail lists: 1:10,2:7277,3:2436,4:24,5:205,6:25,7:1634,8:44,9:529,10:1,11:22
- 58019 multiletter control sequences out of 65536+600000
+ 716 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 47 attribute, 65 glue_spec
+, 47 attribute_list, 2 write nodes
+   avail lists: 1:10,2:7421,3:2436,4:24,5:205,6:25,7:2299,8:44,9:789,10:1,11:22
+ 58045 multiletter control sequences out of 65536+600000
  75 fonts using 6885915 bytes
  73i,18n,127p,939b,2267s stack positions out of 5000i,500n,10000p,200000b,100000s
 <</home/tom/.texlive2019/texmf-var/fonts/pk/ljfour/public/ifsym/ifsym10.600pk>><
@@ -1452,10 +1453,10 @@ ublic/amsfonts/latxfont/line10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/phaistos/phaistos.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/wasy-
 type1/wasy10.pfb>
-Output written on dingbats2.pdf (8 pages, 184792 bytes).
+Output written on dingbats2.pdf (9 pages, 197783 bytes).
 
-PDF statistics: 134 PDF objects out of 1000 (max. 8388607)
- 91 compressed objects within 1 object stream
+PDF statistics: 137 PDF objects out of 1000 (max. 8388607)
+ 93 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 131072)
  26 words of extra memory for PDF output out of 10000 (max. 100000000)
 

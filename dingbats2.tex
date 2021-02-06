@@ -214,7 +214,7 @@
 	
 	159) Song [3]
 	\[
-		R_{\odot} < \frac{2GM_{\odot}}{c^2}
+		R_{\astrosun} < \frac{2GM_{\astrosun}}{c^2}
 	\]
 	
 	160) Song [7]
@@ -230,7 +230,7 @@
 	
 	161) Song [8]
 	\[
-		\exists \gamma \text{ where } r_{\gamma} < \frac{2GM}{c^2}
+    \exists \gamma \text{ where, } \forall t, \text{ } r_{\gamma} < \frac{2GM}{c^2}
 	\]
 	
 	162) Series/Book [3,4]
@@ -730,9 +730,14 @@ c -- [photon] d,
       \end{tikzpicture}
     \end{figure}
 
-  199) Film
+  199) Film [2]
   \[
     \text{Angry}'(x) = 0, \text{ } \text{Angry}''(x) < 0
+  \]
+
+    Game [2]
+  \[
+    \text{Hurt}'(x) = 0, \text{ } \text{Hurt}''(x) < 0
   \]
 
   200) Song/Album [1]
@@ -1491,4 +1496,132 @@ c -- [photon] d,
     \texttt{\quad print(\ldots}
 
   208) Film[3]
+
+  209) Song [3]
+
+\texttt{if random.random() > 0.5:}
+
+\texttt{\quad me()}
+
+  210) Game [3]
+  \begin{figure}[htbp!]
+    \begin{tikzpicture}
+      \foreach \x in {0,1,2,3,4,5,6,7}{
+        \foreach \y in {0,1,2,3,4,5}{
+          \draw (\x*0.85,\y*0.85) circle (0.25) node {Fe};
+          \draw (\x*0.85+0.25,\y*0.85) -- (\x*0.85+0.6,\y*0.85);
+          \draw (\x*0.85,\y*0.85+0.25) -- (\x*0.85,\y*0.85+0.6);
+        }
+      }
+      \foreach \x in {1,5,9,13}{
+        \foreach \y in {1,5,9}{
+          \draw (0.85/2*\x,0.85/2*\y) circle (0.25) node{Ar};
+        }
+      }
+      
+      \foreach \x in {1,5,9}{
+        \foreach \y in {1,5}{
+          \draw (0.85/2*\x+0.85,0.85/2*\y+0.85) circle (0.25) node{Ar};
+        }
+      }
+      \foreach \x in {1,5,9,13}{
+        \foreach \y in {1,5}{
+          \draw (0.85/2*\x,0.85/2*\y+0.85) circle (0.25) node{Ge};
+        }
+      }
+      \foreach \x in {1,5,9}{
+        \foreach \y in {1,5,9}{
+          \draw (0.85/2*\x+0.85,0.85/2*\y) circle (0.25) node{Ge};
+        }
+      }
+      \foreach \x in {0,1,2,3,4,5,6,7}{
+          \draw (\x*0.85,-0.25) -- (\x*0.85,-0.6);
+      }
+      \foreach \y in {0,1,2,3,4,5}{
+          \draw (-0.25,\y*0.85) -- (-0.6,\y*0.85);
+      } 
+
+    \end{tikzpicture}
+  \end{figure}
+    
+  211) Game [1]
+  \begin{figure}[htbp!]
+    \begin{tikzpicture}
+      \draw (0,0) circle (2);
+      \node at (-0.7,0.7) {$\dv{T}{t} > 0$};
+      \draw[->] (0,0)--(0.3,0) node[right] {$v=0$};
+      \draw[->] ({1.8*cos(30)},{1.8*sin(30)}) arc (30:-30:1.8) node[below] {$\omega$};
+      \draw[->] (0,-2) -- (1,-2);
+      \draw[->] (0,-2) -- (0,-1) node[right] {$N$};
+      \node at (0,-2.5) {$F=\mu_k N$};
+      \draw[dotted] (-2,-2) -- (2,-2);
+    \end{tikzpicture}
+  \end{figure}
+
+  212) Game [1]
+  \begin{figure}[htbp!]
+    \begin{tikzpicture}[scale=1.5]
+      \draw (-2,0) -- (2,0);
+      \draw[->] (-1,1) -- (-0.5,0.5) node[above] {$\male$};
+      \draw (-0.5,0.5) -- (0,0);
+      \draw[->] (0,0) -- (0.5,0.5) node[above] {$\male$};
+      \draw (0.5,0.5) -- (1,1);
+      \draw[->] (0,0) -- (0.25,-0.5) node[right] {$\male$};
+      \draw (0.25,-0.5) -- (0.5,-1);
+    \end{tikzpicture}
+  \end{figure}
+
+213) Song [1]
+  \[
+    \astrosun \male     
+  \]
+
+214) Game [2]
+\[
+  bi  \text{ where } b \in (\mathbb{R} \cap \text{competition})
+\]
+
+215) Game [4]
+\[
+  r_\text{Animal}(d/v) \text{ where } r_\text{Animal}(t) = R_\nu + d - vt, \text{ } R_\nu = \frac{2GM}{c^2}
+\]
+
+216) Film [2]
+\[
+    \frac{2GM}{c^2}
+\]
+
+217) Book/Film [5]
+\begin{figure}[htbp!]
+  \begin{tikzpicture}
+    \node at (0,2.1) {Enzyme (lock)};
+    \draw ({1.5*cos(-135)},{1.5*sin(-135)}) arc (-135:135:1.5);
+    \draw ({1.5*cos(135)},{1.5*sin(135)}) -- (-0.7,{1.5*sin(135)}) -- (-0.7,0.5) -- (-1,0.5) -- (-1,-0.5) -- (-0.6,-0.5) -- (-0.4,-0.5) --(-0.4,{1.5*sin(-135)}) -- ({1.5*cos(-135)},{1.5*sin(-135)});
+    \begin{scope}[shift={(-3,1.5)}]
+      \node at (0,1.5) {Substrate (key)};
+      \draw ({1.5*cos(135)},{1.5*sin(135)}) arc (135:360-135:1.5);
+    \draw ({1.5*cos(135)},{1.5*sin(135)}) -- (-0.7,{1.5*sin(135)}) -- (-0.7,0.5) -- (-1,0.5) -- (-1,-0.5) -- (-0.6,-0.5) -- (-0.4,-0.5) --(-0.4,{1.5*sin(-135)}) -- ({1.5*cos(-135)},{1.5*sin(-135)});
+      \node at (0,-1.5) {(R) enantionmer};
+      \draw[->] (0,0) -- (1.8,-1);
+    \end{scope}
+
+    \begin{scope}[shift={(-3,-1.5)},yscale=-1]
+\draw ({1.5*cos(135)},{1.5*sin(135)}) arc (135:360-135:1.5);
+    \draw ({1.5*cos(135)},{1.5*sin(135)}) -- (-0.7,{1.5*sin(135)}) -- (-0.7,0.5) -- (-1,0.5) -- (-1,-0.5) -- (-0.6,-0.5) -- (-0.4,-0.5) --(-0.4,{1.5*sin(-135)}) -- ({1.5*cos(-135)},{1.5*sin(-135)});
+      \node at (0,1.5) {(S) enantionmer};
+      \draw[->] (0,0) -- (1.8,-1);
+      \draw[thick] (0.9,-0.5) -- + (-0.5,0.5);
+      \draw[thick] (0.9,-0.5) -- + (0.5,0.5);
+      \draw[thick] (0.9,-0.5) -- + (0.5,-0.5);
+      \draw[thick] (0.9,-0.5) -- + (-0.5,-0.5);
+    \end{scope}
+
+
+  \end{tikzpicture}
+\end{figure}
+  
+  218) Song [4]
+  \[
+    \texttt{\$ ./urlife; ./urlife; ./urlife; ./urlife}
+  \]
 \end{document}
