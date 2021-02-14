@@ -1,5 +1,5 @@
-  \documentclass[10pt]{article}
-  \usepackage{amsmath, amssymb}
+\documentclass[10pt]{article}
+\usepackage{amsmath, amssymb}
   \usepackage{graphicx}
   \usepackage{physics}
   \usepackage{siunitx}
@@ -274,7 +274,7 @@
 
   4 Film [1]
   \[
-  \lim_{x \to a} f(x) = \text{error}
+  \lim_{x \to a} f(x) \text{ undefined}
   \]
 
   5 Film/Book [3]
@@ -408,16 +408,30 @@
   28 Book/Film [2]
    \[
    \begin{split}
-  & E: \text{ the person is excused}\\
-  & I: \text{ the person is insane} \\
-  & R: \text{ the person requested an evaluation} \\
-  &1. \text{ }E \implies (I \land R) \text{ (premise 1)} \\
-  &2. \text{ }I \implies \neg R \text{ (premise 2)} \\
-  &3. \text{ From 2, } \neg I \lor \neg R \\
-  &4. \text{ From 3, } \neg(I \land R) \\
-  &5. \text{ From 1 and 4, } \neg E
+  & D: \text{ discharged}\\
+  & M: \text{ mentally unsound} \\
+  & E: \text{ evaluation requested} \\
+  &1. \text{ }D \implies (M \land E) \text{ (premise 1)} \\
+  &2. \text{ }M \implies \neg E \text{ (premise 2)} \\
+  &3. \text{ From 2, } \neg M \lor \neg E \\
+     &4. \text{ From 3, } \neg(M \land E) \\
+  &5. \text{ From 1 and 4, } \neg D 
   \end{split}
   \]
+
+\[
+   \begin{split}
+  & S: \text{ new office toner supplied}\\
+  & T: \text{ ran out of office toner} \\
+  & R: \text{ requisition form printed and filled in} \\
+  &1. \text{ }S \implies (T \land R) \text{ (premise 1)} \\
+  &2. \text{ }T \implies \neg R \text{ (premise 2)} \\
+  &3. \text{ From 2, } \neg T \lor \neg R \\
+  &4. \text{ From 3, } \neg(T \land R) \\
+  &5. \text{ From 1 and 4, } \neg S
+  \end{split}
+  \]
+
 
   29 Film [4]
   \[
@@ -426,7 +440,7 @@
 
   30 Film [1]
   \[
-  f(f(f(x)))
+    d(d(d(x)))
   \]
 
   31  Book/Film [3]
@@ -521,7 +535,7 @@
 
   45 Game [2]
   \[
-  (r,7) , (o,11) , (i,13), (e,3) , (t,5) , (m,2) , (d,17)
+  (d,17), (e,3), (i,13), (m,2), (o,11), (r,7)  , (t,5) 
   \]
 
   46 Song [2]
@@ -554,7 +568,7 @@
 
   51 Show [1]
   \[
-    30, 29, 28, 27, \ldots
+    t - 30 
   \]
 
   52 Book/Film [1]
@@ -635,7 +649,7 @@
 
   60 Film [3]
   \[
-    r_{\male} <\frac{2GM}{c^2}
+    r_{\male_1},r_{\male_2} <\frac{2GM}{c^2} 
   \]
 
   61 Show [2]
@@ -893,9 +907,9 @@
 
     86) Book/Film [3]
     \[
-        \pi^+ \to \mu^+ + \nu_\mu
+      \pi^0 \ce{ -> } 2 \gamma
     \]
-   
+
     87) Film/Song (spelt differently) [1] or [2] 
     \[
         a \times 10^{-3}
@@ -1125,7 +1139,7 @@
 
     121) Film [2]
     
-      Point mass $m$ with $v>0$ and $a<0$
+      Point mass with $v>0$ and $a<0$
     
 
     122) Film [1]
@@ -1442,8 +1456,12 @@
 	
 	150) Song [3]
 	\[
-    \text{c}\bar{\text{d}}\ce{ -> }\bar{\text{u}}\text{s} +\text{u}\bar{\text{d}} + \text{u}\bar{\text{d}}
-	\]
+    \begin{split}
+      \text{c}\bar{\text{d}}&\ce{ -> }\bar{\text{u}}\text{s} +\text{u}\bar{\text{d}} + \bar{\text{u}}\text{d} \\
+      \text{c}\bar{\text{u}}&\ce{ -> } \bar{\text{u}}\text{s} +\text{u}\bar{\text{d}} \\
+      \text{c}\bar{\text{s}}&\ce{ -> } \text{u}\bar{\text{s}} + \bar{\text{u}}\text{s} + \text{u}\bar{\text{d}}
+    \end{split}
+    \]
 	
 	151) Song [3]
 	\begin{figure}[htbp!]

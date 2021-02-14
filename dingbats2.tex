@@ -29,6 +29,7 @@
 \usepackage{pifont}
 \usetikzlibrary{matrix}
 \newcommand*{\mybox}[1]{\framebox{#1}}
+\usepackage{halloweenmath}
 
 
 \usepackage{pgfplots}
@@ -425,14 +426,35 @@
 	
 	\begin{figure}[htbp!]
 	\begin{tikzpicture}
-	\draw[<->] (0,0.5) node[above] {N} -- (0,-0.5)node[below] {S};
+  \draw[<->] (0,0.5) node[above] {N} -- (0,-0.5)node[below] {S};
 	\draw[<->] (-0.5,0) node[left] {W}-- (0.5,0) node[right] {E};
 	\draw[fill=black] (-2.4,0) circle (0.02) node[above] {$\frac{1}{t}$};
 	\draw[fill=black] (-3,0) circle (0.02) node[above] {$\frac{1}{t}$};
 		\draw[fill=black] (-3.2,0) circle (0.02) node[above] {$\frac{1}{t}$};
 	\end{tikzpicture}
 	\end{figure}
-  \begin{comment}
+  
+  \begin{figure}[htbp!]
+    \begin{tikzpicture}
+      \draw[step=0.25,gray, opacity=0.25, very thin] (-4,-2) grid (4,2);
+      \draw[step=1, opacity=0.5, very thin] (-4,-2) grid (4,2);
+      \foreach \x in {-180,-135,...,180}{
+        \node[above] at (\x/45,2) {\x$^\circ$};
+        \node[below] at (\x/45,-2) {\x$^\circ$}; 
+      }
+      \foreach \y in {-180,-90,...,180}{
+        \node[left] at (-4,\y/90) {\y$^\circ$};
+        \node[right] at (4,\y/90) {\y$^\circ$}; 
+      }
+      \foreach \x in {-0.3,-1.2,-2.6,-3.8}{
+        \draw[fill=black]  (\x,0) circle (0.02) node[above] {$\frac{1}{t}$};
+      }
+    \end{tikzpicture}
+  \end{figure}
+ 
+ 
+ 
+ \begin{comment}
 	169) Film [2]
 	\[
 	\schemestart
@@ -1489,6 +1511,25 @@ c -- [photon] d,
     \end{tikzpicture}
   \end{figure}
 
+   \begin{figure}[htbp!]
+      \begin{tikzpicture}[,
+  baseline=(nucleus.base),
+    nucleus options/.style = {draw=black!80,fill=black!10,opacity=.25},
+    shell options/.style = {draw=black!75,thin},
+    silicon/.pic = {
+      \node(nucleus) at (0,0) {Atom};
+      \draw[nucleus options] (nucleus) circle (1em);
+      \draw[shell options] (nucleus) circle (2em);
+      \foreach \angle in {0,90,180,270} {
+        \fill (nucleus) ++(\angle:2em) circle (0.025) node {$\mathghost$};
+      }
+    },
+    scale=2
+    ]
+    \path (0,0) pic {silicon};
+    \end{tikzpicture}
+  \end{figure} 
+
   207) Film [3]
 
      \texttt{if man:}
@@ -1548,7 +1589,7 @@ c -- [photon] d,
   \begin{figure}[htbp!]
     \begin{tikzpicture}
       \draw (0,0) circle (2);
-      \node at (-0.7,0.7) {$\dv{T}{t} > 0$};
+      \node at (-0.4,0.7) {$\dv{T}{t} = \alpha \si{\kelvin\per\second} > 0 $};
       \draw[->] (0,0)--(0.3,0) node[right] {$v=0$};
       \draw[->] ({1.8*cos(30)},{1.8*sin(30)}) arc (30:-30:1.8) node[below] {$\omega$};
       \draw[->] (0,-2) -- (1,-2);
@@ -1561,13 +1602,13 @@ c -- [photon] d,
   212) Game [1]
   \begin{figure}[htbp!]
     \begin{tikzpicture}[scale=1.5]
-      \draw (-2,0) -- (2,0);
+      \draw (-1.5,0) -- (1.5,0);
       \draw[->] (-1,1) -- (-0.5,0.5) node[above] {$\male$};
       \draw (-0.5,0.5) -- (0,0);
-      \draw[->] (0,0) -- (0.5,0.5) node[above] {$\male$};
+      \draw[->] (0,0) -- (0.5,0.5) node[above] {$\female$};
       \draw (0.5,0.5) -- (1,1);
-      \draw[->] (0,0) -- (0.25,-0.5) node[right] {$\male$};
-      \draw (0.25,-0.5) -- (0.5,-1);
+      \draw[dashed] (0,0) -- (0,1.4);
+      \draw[->] (-1.3,0.7) node[left] {this} -- (-0.5,0.4);
     \end{tikzpicture}
   \end{figure}
 
@@ -1577,9 +1618,13 @@ c -- [photon] d,
   \]
 
 214) Game [2]
-\[
-  bi  \text{ where } b \in (\mathbb{R} \cap \text{competition})
-\]
+\begin{figure}
+  \begin{tikzpicture}
+    \draw[<->] (0,2) node[above] {competition} -- (0,0) -- (2,0) node[right] {$\mathbb{R}$};
+    \draw[fill=black] (0,1) circle (0.05);
+    \draw[<-] (0.1,1) -- (1,1.3);
+  \end{tikzpicture}
+\end{figure}
 
 215) Game [4]
 \[
@@ -1601,14 +1646,14 @@ c -- [photon] d,
       \node at (0,1.5) {Substrate (key)};
       \draw ({1.5*cos(135)},{1.5*sin(135)}) arc (135:360-135:1.5);
     \draw ({1.5*cos(135)},{1.5*sin(135)}) -- (-0.7,{1.5*sin(135)}) -- (-0.7,0.5) -- (-1,0.5) -- (-1,-0.5) -- (-0.6,-0.5) -- (-0.4,-0.5) --(-0.4,{1.5*sin(-135)}) -- ({1.5*cos(-135)},{1.5*sin(-135)});
-      \node at (0,-1.5) {(R) enantionmer};
+      \node at (0,-1.5) {(R) enantiomer};
       \draw[->] (0,0) -- (1.8,-1);
     \end{scope}
 
     \begin{scope}[shift={(-3,-1.5)},yscale=-1]
 \draw ({1.5*cos(135)},{1.5*sin(135)}) arc (135:360-135:1.5);
     \draw ({1.5*cos(135)},{1.5*sin(135)}) -- (-0.7,{1.5*sin(135)}) -- (-0.7,0.5) -- (-1,0.5) -- (-1,-0.5) -- (-0.6,-0.5) -- (-0.4,-0.5) --(-0.4,{1.5*sin(-135)}) -- ({1.5*cos(-135)},{1.5*sin(-135)});
-      \node at (0,1.5) {(S) enantionmer};
+      \node at (0,1.5) {(S) enantiomer};
       \draw[->] (0,0) -- (1.8,-1);
       \draw[thick] (0.9,-0.5) -- + (-0.5,0.5);
       \draw[thick] (0.9,-0.5) -- + (0.5,0.5);
@@ -1622,6 +1667,43 @@ c -- [photon] d,
   
   218) Song [4]
   \[
-    \texttt{\$ ./urlife; ./urlife; ./urlife; ./urlife}
+    \texttt{\$ ./thehill; ./thehill}
   \]
+
+  219) Film [5]
+  \[
+    \begin{split}
+      \lambda_\text{max} =&\frac{\SI{2.898e-3}{\metre\kelvin}}{T} \\
+      \text{Pos} &\text{sible } \lambda_\text{max}: \\
+      \text{Blue: } & \SI{450}{\nano\metre}\text{--}\SI{485}{\nano\metre} \\
+      \text{Cyan: } & \SI{485}{\nano\metre}\text{--}\SI{500}{\nano\metre} \\
+      \text{Green: } & \SI{565}{\nano\metre}\text{--}\SI{590}{\nano\metre} \\
+      \text{Yellow: } & \SI{565}{\nano\metre}\text{--}\SI{590}{\nano\metre} \\
+      \text{Orange: } & \SI{590}{\nano\metre}\text{--}\SI{625}{\nano\metre} \\
+      \text{Red: } & \SI{625}{\nano\metre}\text{--}\SI{700}{\nano\metre} \\
+    \end{split}
+  \]
+
+  220) Series [5]
+  \[
+    \begin{split}
+      \nu_\text{violet} &= \SI{670}{\tera\hertz}\text{--}\SI{790}{\tera\hertz}\\
+      \nu_\text{blue} &= \SI{620}{\tera\hertz}\text{--}\SI{670}{\tera\hertz} \\
+      \nu_\text{cyan} &= \SI{600}{\tera\hertz}\text{--}\SI{620}{\tera\hertz} \\
+      \nu_\text{green} &= \SI{530}{\tera\hertz}\text{--}\SI{600}{\tera\hertz} \\
+      \nu_\text{yellow} &= \SI{510}{\tera\hertz}\text{--}\SI{530}{\tera\hertz} \\
+      \nu_\text{black} &= \SI{590}{\tera\hertz}\text{--}\SI{625}{\tera\hertz} \\
+      \nu_\text{red} &= \SI{625}{\tera\hertz}\text{--}\SI{700}{\tera\hertz} \\
+    \end{split}
+  \]
+
+  221) Game [4]
+  \[
+    \begin{pmatrix}
+      \cos(\text{human}) & - \sin(\text{human}) \\
+      \sin(\text{human}) & \phantom{-}\cos(\text{human}) \\
+    \end{pmatrix}
+      \text{\Cross}    x 
+  \]
+
 \end{document}
