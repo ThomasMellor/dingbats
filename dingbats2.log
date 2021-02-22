@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2021.1.27)  14 FEB 2021 14:58
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2021.1.27)  22 FEB 2021 21:03
  restricted system commands enabled.
 **dingbats2.tex
 (./dingbats2.tex
@@ -176,6 +176,28 @@ File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
 \Gin@req@height=\dimen144
 \Gin@req@width=\dimen145
 )
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+))
+\Gm@cnth=\count183
+\Gm@cntv=\count184
+\c@Gm@tempcnt=\count185
+\Gm@bindingoffset=\dimen146
+\Gm@wd@mp=\dimen147
+\Gm@odd@mp=\dimen148
+\Gm@even@mp=\dimen149
+\Gm@layoutwidth=\dimen150
+\Gm@layoutheight=\dimen151
+\Gm@layouthoffset=\dimen152
+\Gm@layoutvoffset=\dimen153
+\Gm@dimlist=\toks20
+)
 (/usr/share/texlive/texmf-dist/tex/latex/epsdice/epsdice.sty
 Package: epsdice 2007/02/15 by Thomas Heim (v. 2.1)
 
@@ -183,7 +205,7 @@ Package: epsdice 2007/02/15 by Thomas Heim (v. 2.1)
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/epsdice/epsdice.cfg)
-\c@eps@face=\count183
+\c@eps@face=\count186
 )
 (/usr/share/texlive/texmf-dist/tex/latex/physics/physics.sty
 Package: physics 
@@ -194,24 +216,24 @@ Package: expl3 2020-02-14 L3 programming layer (loader)
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count184
+\l__kernel_color_stack_int=\count187
 \l__pdf_internal_box=\box47
 ))
 Package: xparse 2020-02-14 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count185
-\g__xparse_grabber_int=\count186
-\l__xparse_m_args_int=\count187
-\l__xparse_v_nesting_int=\count188
+\l__xparse_current_arg_int=\count188
+\g__xparse_grabber_int=\count189
+\l__xparse_m_args_int=\count190
+\l__xparse_v_nesting_int=\count191
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
 Package: siunitx 2020/01/15 v2.7u A comprehensive (SI) units package
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen146
+\col@sep=\dimen154
 \ar@mcellbox=\box48
-\extrarowheight=\dimen147
-\NC@list=\toks20
+\extrarowheight=\dimen155
+\NC@list=\toks21
 \extratabsurround=\skip52
 \backup@length=\skip53
 \ar@cellbox=\box49
@@ -220,39 +242,39 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 Package: l3keys2e 2020-02-14 LaTeX2e option processing using LaTeX3 keys
 )
 \l__siunitx_tmp_box=\box50
-\l__siunitx_tmp_dim=\dimen148
-\l__siunitx_tmp_int=\count189
-\l__siunitx_number_mantissa_length_int=\count190
-\l__siunitx_number_uncert_length_int=\count191
-\l__siunitx_round_int=\count192
-\l__siunitx_process_decimal_int=\count193
-\l__siunitx_process_uncertainty_int=\count194
-\l__siunitx_process_fixed_int=\count195
-\l__siunitx_process_integer_min_int=\count196
-\l__siunitx_process_precision_int=\count197
-\l__siunitx_group_min_int=\count198
+\l__siunitx_tmp_dim=\dimen156
+\l__siunitx_tmp_int=\count192
+\l__siunitx_number_mantissa_length_int=\count193
+\l__siunitx_number_uncert_length_int=\count194
+\l__siunitx_round_int=\count195
+\l__siunitx_process_decimal_int=\count196
+\l__siunitx_process_uncertainty_int=\count197
+\l__siunitx_process_fixed_int=\count198
+\l__siunitx_process_integer_min_int=\count199
+\l__siunitx_process_precision_int=\count266
+\l__siunitx_group_min_int=\count267
 \l__siunitx_angle_marker_box=\box51
 \l__siunitx_angle_unit_box=\box52
-\l__siunitx_angle_marker_dim=\dimen149
-\l__siunitx_angle_unit_dim=\dimen150
-\l__siunitx_unit_int=\count199
-\l__siunitx_unit_denominator_int=\count266
-\l__siunitx_unit_numerator_int=\count267
-\l__siunitx_unit_prefix_int=\count268
-\l__siunitx_unit_prefix_base_int=\count269
-\l__siunitx_unit_prefix_gram_int=\count270
-\l__siunitx_number_product_int=\count271
+\l__siunitx_angle_marker_dim=\dimen157
+\l__siunitx_angle_unit_dim=\dimen158
+\l__siunitx_unit_int=\count268
+\l__siunitx_unit_denominator_int=\count269
+\l__siunitx_unit_numerator_int=\count270
+\l__siunitx_unit_prefix_int=\count271
+\l__siunitx_unit_prefix_base_int=\count272
+\l__siunitx_unit_prefix_gram_int=\count273
+\l__siunitx_number_product_int=\count274
 \c__siunitx_one_fill_skip=\skip54
 \l__siunitx_table_unit_align_skip=\skip55
-\l__siunitx_table_exponent_dim=\dimen151
-\l__siunitx_table_integer_dim=\dimen152
-\l__siunitx_table_mantissa_dim=\dimen153
-\l__siunitx_table_marker_dim=\dimen154
-\l__siunitx_table_result_dim=\dimen155
-\l__siunitx_table_uncert_dim=\dimen156
-\l__siunitx_table_fill_pre_dim=\dimen157
-\l__siunitx_table_fill_post_dim=\dimen158
-\l__siunitx_table_fill_mid_dim=\dimen159
+\l__siunitx_table_exponent_dim=\dimen159
+\l__siunitx_table_integer_dim=\dimen160
+\l__siunitx_table_mantissa_dim=\dimen161
+\l__siunitx_table_marker_dim=\dimen162
+\l__siunitx_table_result_dim=\dimen163
+\l__siunitx_table_uncert_dim=\dimen164
+\l__siunitx_table_fill_pre_dim=\dimen165
+\l__siunitx_table_fill_post_dim=\dimen166
+\l__siunitx_table_fill_mid_dim=\dimen167
 \l__siunitx_table_pre_box=\box53
 \l__siunitx_table_post_box=\box54
 \l__siunitx_table_mantissa_box=\box55
@@ -268,24 +290,24 @@ Package: mhchem 2018/06/22 v4.08 for typesetting chemical formulae
 
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count272
-\calc@Bcount=\count273
-\calc@Adimen=\dimen160
-\calc@Bdimen=\dimen161
+\calc@Acount=\count275
+\calc@Bcount=\count276
+\calc@Adimen=\dimen168
+\calc@Bdimen=\dimen169
 \calc@Askip=\skip58
 \calc@Bskip=\skip59
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count274
+\calc@Ccount=\count277
 \calc@Cskip=\skip60
 )
 (/usr/share/texlive/texmf-dist/tex/latex/chemgreek/chemgreek.sty
 Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use 
 in chemistry (CN)
-\l__chemgreek_tmpa_int=\count275
-\g__chemgreek_tmpa_int=\count276
+\l__chemgreek_tmpa_int=\count278
+\g__chemgreek_tmpa_int=\count279
 )
-\l__mhchem_ce_distanceFromLastComma_int=\count277
+\l__mhchem_ce_distanceFromLastComma_int=\count280
 \__mhchem_arrow_extPgfLength_skip=\skip61
 \mhchem@minispace@tmp=\skip62
 \mhchem@minibackspace@tmp=\skip63
@@ -296,16 +318,16 @@ in chemistry (CN)
 \mhchem@smallbondwidth=\skip68
 \mhchem@bondtmp@minussidebearingleft=\skip69
 \mhchem@bondtmp@minussidebearingright=\skip70
-\l__mhchem_option_version_int=\count278
-\mhchem@option@minusmathsidebearingleft=\dimen162
-\mhchem@option@minusmathsidebearingright=\dimen163
-\mhchem@option@minustextsidebearingleft=\dimen164
-\mhchem@option@minustextsidebearingright=\dimen165
+\l__mhchem_option_version_int=\count281
+\mhchem@option@minusmathsidebearingleft=\dimen170
+\mhchem@option@minusmathsidebearingright=\dimen171
+\mhchem@option@minustextsidebearingleft=\dimen172
+\mhchem@option@minustextsidebearingright=\dimen173
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks21
-\inpenc@posthook=\toks22
+\inpenc@prehook=\toks22
+\inpenc@posthook=\toks23
 
 
 Package inputenc Warning: inputenc package ignored with utf8 based engines.
@@ -340,23 +362,23 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count279
+\lst@mode=\count282
 \lst@gtempboxa=\box57
-\lst@token=\toks23
-\lst@length=\count280
-\lst@currlwidth=\dimen166
-\lst@column=\count281
-\lst@pos=\count282
-\lst@lostspace=\dimen167
-\lst@width=\dimen168
-\lst@newlines=\count283
-\lst@lineno=\count284
-\lst@maxwidth=\dimen169
+\lst@token=\toks24
+\lst@length=\count283
+\lst@currlwidth=\dimen174
+\lst@column=\count284
+\lst@pos=\count285
+\lst@lostspace=\dimen175
+\lst@width=\dimen176
+\lst@newlines=\count286
+\lst@lineno=\count287
+\lst@maxwidth=\dimen177
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
-\c@lstnumber=\count285
-\lst@skipnumbers=\count286
+\c@lstnumber=\count288
+\lst@skipnumbers=\count289
 \lst@framebox=\box58
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
@@ -374,9 +396,9 @@ LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks24
-\pgfutil@tempdima=\dimen170
-\pgfutil@tempdimb=\dimen171
+\pgfutil@everybye=\toks25
+\pgfutil@tempdima=\dimen178
+\pgfutil@tempdimb=\dimen179
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
 ex)) (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
@@ -396,33 +418,33 @@ Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
 Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks25
-\pgfkeys@temptoks=\toks26
+\pgfkeys@pathtoks=\toks26
+\pgfkeys@temptoks=\toks27
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
 ex
-\pgfkeys@tmptoks=\toks27
+\pgfkeys@tmptoks=\toks28
 ))
-\pgf@x=\dimen172
-\pgf@y=\dimen173
-\pgf@xa=\dimen174
-\pgf@ya=\dimen175
-\pgf@xb=\dimen176
-\pgf@yb=\dimen177
-\pgf@xc=\dimen178
-\pgf@yc=\dimen179
-\pgf@xd=\dimen180
-\pgf@yd=\dimen181
+\pgf@x=\dimen180
+\pgf@y=\dimen181
+\pgf@xa=\dimen182
+\pgf@ya=\dimen183
+\pgf@xb=\dimen184
+\pgf@yb=\dimen185
+\pgf@xc=\dimen186
+\pgf@yc=\dimen187
+\pgf@xd=\dimen188
+\pgf@yd=\dimen189
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count287
-\c@pgf@countb=\count288
-\c@pgf@countc=\count289
-\c@pgf@countd=\count290
-\t@pgf@toka=\toks28
-\t@pgf@tokb=\toks29
-\t@pgf@tokc=\toks30
-\pgf@sys@id@count=\count291
+\c@pgf@counta=\count290
+\c@pgf@countb=\count291
+\c@pgf@countc=\count292
+\c@pgf@countd=\count293
+\t@pgf@toka=\toks29
+\t@pgf@tokb=\toks30
+\t@pgf@tokc=\toks31
+\pgf@sys@id@count=\count294
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
 )
@@ -438,8 +460,8 @@ File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfsyssoftpath@smallbuffer@items=\count292
-\pgfsyssoftpath@bigbuffer@items=\count293
+\pgfsyssoftpath@smallbuffer@items=\count295
+\pgfsyssoftpath@bigbuffer@items=\count296
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -452,12 +474,12 @@ Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen182
-\pgfmath@count=\count294
+\pgfmath@dimen=\dimen190
+\pgfmath@count=\count297
 \pgfmath@box=\box60
-\pgfmath@toks=\toks31
-\pgfmath@stack@operand=\toks32
-\pgfmath@stack@operation=\toks33
+\pgfmath@toks=\toks32
+\pgfmath@stack@operand=\toks33
+\pgfmath@stack@operation=\toks34
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
@@ -477,38 +499,38 @@ tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
 thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count295
+\c@pgfmathroundto@lastzeros=\count298
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
 x
 File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@picminx=\dimen183
-\pgf@picmaxx=\dimen184
-\pgf@picminy=\dimen185
-\pgf@picmaxy=\dimen186
-\pgf@pathminx=\dimen187
-\pgf@pathmaxx=\dimen188
-\pgf@pathminy=\dimen189
-\pgf@pathmaxy=\dimen190
-\pgf@xx=\dimen191
-\pgf@xy=\dimen192
-\pgf@yx=\dimen193
-\pgf@yy=\dimen194
-\pgf@zx=\dimen195
-\pgf@zy=\dimen196
+\pgf@picminx=\dimen191
+\pgf@picmaxx=\dimen192
+\pgf@picminy=\dimen193
+\pgf@picmaxy=\dimen194
+\pgf@pathminx=\dimen195
+\pgf@pathmaxx=\dimen196
+\pgf@pathminy=\dimen197
+\pgf@pathmaxy=\dimen198
+\pgf@xx=\dimen199
+\pgf@xy=\dimen256
+\pgf@yx=\dimen257
+\pgf@yy=\dimen258
+\pgf@zx=\dimen259
+\pgf@zy=\dimen260
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
 code.tex
 File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@path@lastx=\dimen197
-\pgf@path@lasty=\dimen198
+\pgf@path@lastx=\dimen261
+\pgf@path@lasty=\dimen262
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
 .tex
 File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@shorten@end@additional=\dimen199
-\pgf@shorten@start@additional=\dimen256
+\pgf@shorten@end@additional=\dimen263
+\pgf@shorten@start@additional=\dimen264
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
 x
@@ -516,19 +538,19 @@ File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfpic=\box61
 \pgf@hbox=\box62
 \pgf@layerbox@main=\box63
-\pgf@picture@serial@count=\count296
+\pgf@picture@serial@count=\count299
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
 File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgflinewidth=\dimen257
+\pgflinewidth=\dimen265
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
 s.code.tex
 File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@pt@x=\dimen258
-\pgf@pt@y=\dimen259
-\pgf@pt@temp=\dimen260
+\pgf@pt@x=\dimen266
+\pgf@pt@y=\dimen267
+\pgf@pt@temp=\dimen268
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
@@ -544,13 +566,13 @@ File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
 x
 File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfarrowsep=\dimen261
+\pgfarrowsep=\dimen269
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@max=\dimen262
-\pgf@sys@shading@range@num=\count297
-\pgf@shadingcount=\count298
+\pgf@max=\dimen270
+\pgf@sys@shading@range@num=\count300
+\pgf@shadingcount=\count301
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
@@ -584,8 +606,8 @@ File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
 .sty
 Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@nodesepstart=\dimen263
-\pgf@nodesepend=\dimen264
+\pgf@nodesepstart=\dimen271
+\pgf@nodesepend=\dimen272
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
@@ -599,10 +621,10 @@ Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
 Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen265
-\pgffor@skip=\dimen266
-\pgffor@stack=\toks34
-\pgffor@toks=\toks35
+\pgffor@iter=\dimen273
+\pgffor@skip=\dimen274
+\pgffor@stack=\toks35
+\pgffor@toks=\toks36
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
@@ -610,33 +632,33 @@ Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@plot@mark@count=\count299
-\pgfplotmarksize=\dimen267
+\pgf@plot@mark@count=\count302
+\pgfplotmarksize=\dimen275
 )
-\tikz@lastx=\dimen268
-\tikz@lasty=\dimen269
-\tikz@lastxsaved=\dimen270
-\tikz@lastysaved=\dimen271
-\tikz@lastmovetox=\dimen272
-\tikz@lastmovetoy=\dimen273
-\tikzleveldistance=\dimen274
-\tikzsiblingdistance=\dimen275
+\tikz@lastx=\dimen276
+\tikz@lasty=\dimen277
+\tikz@lastxsaved=\dimen278
+\tikz@lastysaved=\dimen279
+\tikz@lastmovetox=\dimen280
+\tikz@lastmovetoy=\dimen281
+\tikzleveldistance=\dimen282
+\tikzsiblingdistance=\dimen283
 \tikz@figbox=\box66
 \tikz@figbox@bg=\box67
 \tikz@tempbox=\box68
 \tikz@tempbox@bg=\box69
-\tikztreelevel=\count300
-\tikznumberofchildren=\count301
-\tikznumberofcurrentchild=\count302
-\tikz@fig@count=\count303
+\tikztreelevel=\count303
+\tikznumberofchildren=\count304
+\tikznumberofcurrentchild=\count305
+\tikz@fig@count=\count306
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfmatrixcurrentrow=\count304
-\pgfmatrixcurrentcolumn=\count305
-\pgf@matrix@numberofcolumns=\count306
+\pgfmatrixcurrentrow=\count307
+\pgfmatrixcurrentcolumn=\count308
+\pgf@matrix@numberofcolumns=\count309
 )
-\tikz@expandcount=\count307
+\tikz@expandcount=\count310
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -647,27 +669,27 @@ zlibrarycalc.code.tex
 File: tikzlibrarycalc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ) (/usr/share/texlive/texmf-dist/tex/latex/ifsym/ifsym.sty
 Package: ifsym 2000/04/18 I.Kloeckl
-\c@ifsymcnt=\count308
+\c@ifsymcnt=\count311
 ) (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
 Package: fontspec 2020/02/03 v2.7h Font selection for XeLaTeX and LuaLaTeX
 Lua module: fontspec 2020/02/03 2.7h Font selection for XeLaTeX and LuaLaTeX
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2020/02/03 v2.7h Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count309
-\l__fontspec_language_int=\count310
-\l__fontspec_strnum_int=\count311
-\l__fontspec_tmp_int=\count312
-\l__fontspec_tmpa_int=\count313
-\l__fontspec_tmpb_int=\count314
-\l__fontspec_tmpc_int=\count315
-\l__fontspec_em_int=\count316
-\l__fontspec_emdef_int=\count317
-\l__fontspec_strong_int=\count318
-\l__fontspec_strongdef_int=\count319
-\l__fontspec_tmpa_dim=\dimen276
-\l__fontspec_tmpb_dim=\dimen277
-\l__fontspec_tmpc_dim=\dimen278
+\l__fontspec_script_int=\count312
+\l__fontspec_language_int=\count313
+\l__fontspec_strnum_int=\count314
+\l__fontspec_tmp_int=\count315
+\l__fontspec_tmpa_int=\count316
+\l__fontspec_tmpb_int=\count317
+\l__fontspec_tmpc_int=\count318
+\l__fontspec_em_int=\count319
+\l__fontspec_emdef_int=\count320
+\l__fontspec_strong_int=\count321
+\l__fontspec_strongdef_int=\count322
+\l__fontspec_tmpa_dim=\dimen284
+\l__fontspec_tmpb_dim=\dimen285
+\l__fontspec_tmpc_dim=\dimen286
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
@@ -678,37 +700,34 @@ Package: tikz-feynman 2016/02/05v1.1.0Feynman diagrams with TikZ
 
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2019/11/07 v1.0c TeX engine tests
-))
+)
 (/usr/share/texlive/texmf-dist/tex/latex/pgfopts/pgfopts.sty
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
-\pgfopts@list@add@a@toks=\toks36
-\pgfopts@list@add@b@toks=\toks37
+\pgfopts@list@add@a@toks=\toks37
+\pgfopts@list@add@b@toks=\toks38
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tikz-feynman/tikzlibraryfeynman.code.t
 ex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.
 code.tex
 File: pgflibraryarrows.meta.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfarrowinset=\dimen279
-\pgfarrowlength=\dimen280
-\pgfarrowwidth=\dimen281
-\pgfarrowlinewidth=\dimen282
+\pgfarrowinset=\dimen287
+\pgfarrowlength=\dimen288
+\pgfarrowwidth=\dimen289
+\pgfarrowlinewidth=\dimen290
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarydecorations.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
 e.tex
-\pgfdecoratedcompleteddistance=\dimen283
-\pgfdecoratedremainingdistance=\dimen284
-\pgfdecoratedinputsegmentcompleteddistance=\dimen285
-\pgfdecoratedinputsegmentremainingdistance=\dimen286
-\pgf@decorate@distancetomove=\dimen287
-\pgf@decorate@repeatstate=\count320
-\pgfdecorationsegmentamplitude=\dimen288
-\pgfdecorationsegmentlength=\dimen289
+\pgfdecoratedcompleteddistance=\dimen291
+\pgfdecoratedremainingdistance=\dimen292
+\pgfdecoratedinputsegmentcompleteddistance=\dimen293
+\pgfdecoratedinputsegmentremainingdistance=\dimen294
+\pgf@decorate@distancetomove=\dimen295
+\pgf@decorate@repeatstate=\count323
+\pgfdecorationsegmentamplitude=\dimen296
+\pgfdecorationsegmentlength=\dimen297
 )
 \tikz@lib@dec@box=\box70
 )
@@ -727,8 +746,8 @@ decorations.pathreplacing.code.tex))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/gra
 phs/tikzlibrarygraphs.code.tex
 File: tikzlibrarygraphs.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\tikz@lib@auto@number=\count321
-\tikz@qnode@count=\count322
+\tikz@lib@auto@number=\count324
+\tikz@qnode@count=\count325
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarypatterns.code.tex
@@ -757,7 +776,7 @@ File: tikzlibrarygraphdrawing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/graphdrawing/tex/pgflibrarygraph
 drawing.code.tex
 File: pgflibrarygraphdrawing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@gd@parameter@stack@height=\count323
+\pgf@gd@parameter@stack@height=\count326
 \pgf@gd@node@box=\box71
 \pgf@gd@edge@box=\box72
 \pgf@gd@prekind@box=\box73
@@ -767,25 +786,25 @@ File: pgflibrarygraphdrawing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ))) (/usr/share/texlive/texmf-dist/tex/generic/chemfig/chemfig.sty
 (/usr/share/texlive/texmf-dist/tex/generic/chemfig/chemfig.tex
 (/usr/share/texlive/texmf-dist/tex/generic/simplekv/simplekv.tex)
-\CF_cntatomgroup=\count324
-\CF_cntgroup=\count325
-\CF_cntatom=\count326
-\CF_cntcycle=\count327
-\CF_cntcompound=\count328
-\CF_dim=\dimen290
-\CF_arrowsize=\dimen291
-\CF_zero=\dimen292
+\CF_cntatomgroup=\count327
+\CF_cntgroup=\count328
+\CF_cntatom=\count329
+\CF_cntcycle=\count330
+\CF_cntcompound=\count331
+\CF_dim=\dimen298
+\CF_arrowsize=\dimen299
+\CF_zero=\dimen300
 \CF_boxlewis=\box75
 \CF_box=\box76
 \CF_boxstuff=\box77
-\CF_substtoks=\toks38
+\CF_substtoks=\toks39
 )
 Package: chemfig 2019/05/21 v1.41 Draw molecule with an easy syntax (CT)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks39
-\verbatim@line=\toks40
+\every@verbatim=\toks40
+\verbatim@line=\toks41
 \verbatim@in@stream=\read3
 )
 (/usr/share/texlive/texmf-dist/tex/latex/skak/skak.sty
@@ -799,10 +818,10 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks41
-\XKV@tempa@toks=\toks42
+\XKV@toks=\toks42
+\XKV@tempa@toks=\toks43
 )
-\XKV@depth=\count329
+\XKV@depth=\count332
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/chessfss/lsbenc.def
@@ -826,20 +845,20 @@ Package chessfss Warning: \comment already defined
 (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
-\c@fileFrom=\count330
-\c@rankFrom=\count331
-\c@fileTo=\count332
-\c@rankTo=\count333
-\c@ps@inverse=\count334
-\c@ps@knightangle=\count335
-\c@halfmove=\count336
-\c@move=\count337
-\c@helpgobble=\count338
-\c@helpnumber=\count339
-\c@helpnumberMove=\count340
+\c@fileFrom=\count333
+\c@rankFrom=\count334
+\c@fileTo=\count335
+\c@rankTo=\count336
+\c@ps@inverse=\count337
+\c@ps@knightangle=\count338
+\c@halfmove=\count339
+\c@move=\count340
+\c@helpgobble=\count341
+\c@helpnumber=\count342
+\c@helpnumberMove=\count343
 LaTeX Info: Redefining \variation on input line 1652.
 \squarelength=\skip74
-\square@multiplier=\count341
+\square@multiplier=\count344
 \ranklift=\skip75
 LaTeX Font Info:    Trying to load font information for LSB+skaknew on input lin
 e 1774.
@@ -851,7 +870,7 @@ File: lsbskaknew.fd 2006/03/31 v1.0 Chess font definitions
 LaTeX Font Warning: Font shape `TU/lmss/m/up' undefined
 (Font)              using `TU/lmss/m/n' instead on input line 1774.
 
-\store@toks=\toks43
+\store@toks=\toks44
 ) (/usr/share/texlive/texmf-dist/tex/latex/phaistos/phaistos.sty
 File: phaistos.sty 2004/04/23 v1.0 Package `phaistos.sty'
 )
@@ -877,10 +896,10 @@ Package pict2e Info: Driver file for pict2e: p2e-luatex.def on input line 121.
 (/usr/share/texlive/texmf-dist/tex/latex/pict2e/p2e-luatex.def
 File: p2e-luatex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 )
-\pIIe@GRAPH=\toks44
-\@arclen=\dimen293
-\@arcrad=\dimen294
-\@tempdimd=\dimen295
+\pIIe@GRAPH=\toks45
+\@arclen=\dimen301
+\@arcrad=\dimen302
+\@tempdimd=\dimen303
 )
 \@HwM@arrowfill@skip=\skip76
 )
@@ -893,12 +912,12 @@ Package: pgfplots 2018/03/28 v1.16 Data Visualization (1.16)
 Package pgfplots info on input line 124: Initializing with LUA version Lua 5.3
 pgfplots.lua: loading complementary lua code for your pgf version...
 \pgfplots@luabackend@table=\catcodetable5
-\t@pgfplots@toka=\toks45
-\t@pgfplots@tokb=\toks46
-\t@pgfplots@tokc=\toks47
-\pgfplots@tmpa=\dimen296
-\c@pgfplots@coordindex=\count342
-\c@pgfplots@scanlineindex=\count343
+\t@pgfplots@toka=\toks46
+\t@pgfplots@tokb=\toks47
+\t@pgfplots@tokc=\toks48
+\pgfplots@tmpa=\dimen304
+\c@pgfplots@coordindex=\count345
+\c@pgfplots@scanlineindex=\count346
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code
 .tex))
@@ -923,14 +942,14 @@ tructure.code.tex)
 tructureext.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
 .code.tex
-\c@pgfplotsarray@tmp=\count344
+\c@pgfplotsarray@tmp=\count347
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
 x.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
 d.code.tex
-\c@pgfplotstable@counta=\count345
-\t@pgfplotstable@a=\toks48
+\c@pgfplotstable@counta=\count348
+\t@pgfplotstable@a=\toks49
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
 .code.tex)
@@ -942,7 +961,7 @@ de.tex))
 .tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
 fshading.code.tex
-\c@pgfplotslibrarysurf@no=\count346
+\c@pgfplotslibrarysurf@no=\count349
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
 shading.pgfsys-luatex.def)))
@@ -965,13 +984,13 @@ e.tex)
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
-\pgfplots@numplots=\count347
-\pgfplots@xmin@reg=\dimen297
-\pgfplots@xmax@reg=\dimen298
-\pgfplots@ymin@reg=\dimen299
-\pgfplots@ymax@reg=\dimen300
-\pgfplots@zmin@reg=\dimen301
-\pgfplots@zmax@reg=\dimen302
+\pgfplots@numplots=\count350
+\pgfplots@xmin@reg=\dimen305
+\pgfplots@xmax@reg=\dimen306
+\pgfplots@ymin@reg=\dimen307
+\pgfplots@ymax@reg=\dimen308
+\pgfplots@zmin@reg=\dimen309
+\pgfplots@zmax@reg=\dimen310
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryplotmarks.code.tex
@@ -986,9 +1005,9 @@ kz package.
 
 (/usr/share/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty)
 \pgfpie@angleEnd=\skip77
-\c@pgfpie@explodeLength=\count348
-\c@pgfpie@colorLength=\count349
-\c@pgfpie@sliceLength=\count350
+\c@pgfpie@explodeLength=\count351
+\c@pgfpie@colorLength=\count352
+\c@pgfpie@sliceLength=\count353
 )
 (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2020/01/17 v1.23 mathematical typesetting tools
@@ -1000,15 +1019,15 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count351
-\l_MT_multwidth_dim=\dimen303
+\g_MT_multlinerow_int=\count354
+\l_MT_multwidth_dim=\dimen311
 \origjot=\skip78
-\l_MT_shortvdotswithinadjustabove_dim=\dimen304
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen305
-\l_MT_above_intertext_sep=\dimen306
-\l_MT_below_intertext_sep=\dimen307
-\l_MT_above_shortintertext_sep=\dimen308
-\l_MT_below_shortintertext_sep=\dimen309
+\l_MT_shortvdotswithinadjustabove_dim=\dimen312
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen313
+\l_MT_above_intertext_sep=\dimen314
+\l_MT_below_intertext_sep=\dimen315
+\l_MT_above_shortintertext_sep=\dimen316
+\l_MT_below_shortintertext_sep=\dimen317
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryarrows.code.tex
@@ -1017,10 +1036,22 @@ File: tikzlibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
 tex
 File: pgflibraryarrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\arrowsize=\dimen310
-)) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+\arrowsize=\dimen318
+)) (/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box78
+\UL@hyphenbox=\box79
+\UL@skip=\skip79
+\UL@hook=\toks50
+\UL@height=\dimen319
+\UL@pe=\count355
+\UL@pixel=\dimen320
+\ULC@box=\box80
+Package: ulem 2019/11/18
+\ULdepth=\dimen321
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count352
+\etb@tempcnta=\count356
 )
 (/usr/share/texlive/texmf-dist/tex/latex/polyglossia/polyglossia.sty
 Package: polyglossia 2020/01/29 v1.47 Modern multilingual typesetting with XeLaT
@@ -1040,7 +1071,7 @@ Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX
 
 (/usr/share/texlive/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
 Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
-\@catcodetablestackcnt=\count353
+\@catcodetablestackcnt=\count357
 )
 \CatcodeTableOther=\catcodetable6
 \CatcodeTableExpl=\catcodetable7
@@ -1109,9 +1140,9 @@ braces):
 Package polyglossia Info: Option: English, variant=american.
 )
 Package polyglossia Info: Default language is english.
-\myboxA=\box78
-\myboxB=\box79
-\mylenA=\skip79
+\myboxA=\box81
+\myboxB=\box82
+\mylenA=\skip80
 
 (./dingbats2.aux
 LaTeX Info: Redefining \rmfamily on input line 2.
@@ -1120,61 +1151,61 @@ LaTeX Info: Redefining \ttfamily on input line 2.
 )
 \openout1 = dingbats2.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 149.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 14
-9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 252.
+LaTeX Font Info:    ... okay on input line 252.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 252.
+LaTeX Font Info:    ... okay on input line 252.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 252.
+LaTeX Font Info:    ... okay on input line 252.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 252.
+LaTeX Font Info:    ... okay on input line 252.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 252.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 25
+2.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for LSB/skaknew/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for LSF/skaknew/m/n on input line 149.
+LaTeX Font Info:    ... okay on input line 252.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 252.
+LaTeX Font Info:    ... okay on input line 252.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 252.
+LaTeX Font Info:    ... okay on input line 252.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 252.
+LaTeX Font Info:    ... okay on input line 252.
+LaTeX Font Info:    Checking defaults for LSB/skaknew/m/n on input line 252.
+LaTeX Font Info:    ... okay on input line 252.
+LaTeX Font Info:    Checking defaults for LSF/skaknew/m/n on input line 252.
 LaTeX Font Info:    Trying to load font information for LSF+skaknew on input lin
-e 149.
+e 252.
 
 (/usr/share/texlive/texmf-dist/tex/latex/chessfss/lsfskaknew.fd
 File: lsfskaknew.fd 2006/03/31 v1.0 Chess font definitions
 )
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for LSI/skaknew/m/n on input line 149.
+LaTeX Font Info:    ... okay on input line 252.
+LaTeX Font Info:    Checking defaults for LSI/skaknew/m/n on input line 252.
 LaTeX Font Info:    Trying to load font information for LSI+skaknew on input lin
-e 149.
+e 252.
 
 (/usr/share/texlive/texmf-dist/tex/latex/chessfss/lsiskaknew.fd
 File: lsiskaknew.fd 2006/03/31 v1.0 Chess font definitions
 )
-LaTeX Font Info:    ... okay on input line 149.
-LaTeX Font Info:    Checking defaults for LPH/cmr/m/n on input line 149.
-LaTeX Font Info:    ... okay on input line 149.
+LaTeX Font Info:    ... okay on input line 252.
+LaTeX Font Info:    Checking defaults for LPH/cmr/m/n on input line 252.
+LaTeX Font Info:    ... okay on input line 252.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count354
-\scratchdimen=\dimen311
-\scratchbox=\box80
-\nofMPsegments=\count355
-\nofMParguments=\count356
-\everyMPshowfont=\toks49
-\MPscratchCnt=\count357
-\MPscratchDim=\dimen312
-\MPnumerator=\count358
-\makeMPintoPDFobject=\count359
-\everyMPtoPDFconversion=\toks50
+\scratchcounter=\count358
+\scratchdimen=\dimen322
+\scratchbox=\box83
+\nofMPsegments=\count359
+\nofMParguments=\count360
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count361
+\MPscratchDim=\dimen323
+\MPnumerator=\count362
+\makeMPintoPDFobject=\count363
+\everyMPtoPDFconversion=\toks52
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
@@ -1184,6 +1215,41 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 ))
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(28.45274pt, 557.38951pt, 28.45274pt)
+* v-part:(T,H,B)=(28.45274pt, 738.0645pt, 28.45274pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=557.38951pt
+* \textheight=738.0645pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-80.81725pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
 Dictionary: translator-basic-dictionary, Language: English 
@@ -1192,9 +1258,9 @@ Dictionary: translator-basic-dictionary, Language: English
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
 
-Package chemgreek Info: Activating mapping `fontspec' on line 149.
+Package chemgreek Info: Activating mapping `fontspec' on line 252.
 
-\c@lstlisting=\count360
+\c@lstlisting=\count364
 
 ABD: EveryShipout initializing macros
 
@@ -1203,106 +1269,101 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 149.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 149.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 149.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 149.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 149.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 149.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 149.
-LaTeX Font Info:    Redeclaring math accent \check on input line 149.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 149.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 149.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 149.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 149.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 149.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 149.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 149.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 149.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 149.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 149.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 149.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 149.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 149.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 149.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 149.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 149.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 252.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 252.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 252.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 252.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 252.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 252.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 252.
+LaTeX Font Info:    Redeclaring math accent \check on input line 252.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 252.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 252.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 252.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 252.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 252.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 252.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 252.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 252.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 252.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 252.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 252.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 252.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 252.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 252.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 252.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 252.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 149.
+(Font)              `operators' in the math version `normal' on input line 252.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 149.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 252.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 149.
+(Font)              `operators' in the math version `bold' on input line 252.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 149.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 252.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 149.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 252.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 149.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 252.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 149.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 252.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 149.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 252.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 149.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 252.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 149.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 252.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 149.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 252.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 149.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 252.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 149.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 252.
 
 
 Package tikz-feynman Warning: The preamble requested version 1.0.0, but the syst
-em version is 1.1.0. This may change some diagrams. on input line 149.
+em version is 1.1.0. This may change some diagrams. on input line 252.
 
 Package pgfplots notification 'compat/show suggested version=true': document has
  been generated with the most recent feature set (\pgfplotsset{compat=1.16}).
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 149.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 252.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 149.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 252.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+wasy on input line 149
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 252
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
-LaTeX Info: Redefining \rmfamily on input line 149.
-LaTeX Info: Redefining \sffamily on input line 149.
-LaTeX Info: Redefining \ttfamily on input line 149.
- [1
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Info: Redefining \rmfamily on input line 252.
+LaTeX Info: Redefining \sffamily on input line 252.
+LaTeX Info: Redefining \ttfamily on input line 252.
 LUA survey failed: ...neric/pgfplots/lua/pgfplotsoldpgfsupp/luamath/parser.lua:1
 30: Function 'x' is undefined (did not find pgfluamathfunctions.x (looked into p
 gfluamathfunctions.stringToFunctionMap)). Use \pgfplotsset{lua debug} to see mor
 e.
-Package pgfplots info on input line 294: lua backend=true: LUA version of plot e
+Package pgfplots info on input line 397: lua backend=true: LUA version of plot e
 xpression failed. Using TeX version. (plot 0).
-
-Overfull \hbox (47.25409pt too wide) in paragraph at lines 325--326
-[][] 
- []
-
-<dice.pdf, id=18, 258.9675pt x 86.3225pt>
+<dice.pdf, id=4, 258.9675pt x 86.3225pt>
 File: dice.pdf Graphic file (type pdf)
 <use dice.pdf>
-Package luatex.def Info: dice.pdf  used on input line 331.
+Package luatex.def Info: dice.pdf  used on input line 434.
 (luatex.def)             Requested size: 7.54236pt x 7.5425pt.
 LaTeX Font Info:    Font shape `U/dice3d/m/n' will be
-(Font)              scaled to size 82.96002pt on input line 341.
-[2
+(Font)              scaled to size 82.96002pt on input line 444.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}</usr/share/texlive/texmf-dis
+t/tex/latex/epsdice/dice.pdf>] [2
 Missing character: There is no . (U+002E) in font nullfont!
 Missing character: There is no . (U+002E) in font nullfont!
 Missing character: There is no c (U+0063) in font nullfont!
@@ -1368,41 +1429,75 @@ Missing character: There is no 0 (U+0030) in font nullfont!
 Missing character: There is no 4 (U+0034) in font nullfont!
 Missing character: There is no ) (U+0029) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
-</usr/share/texlive/texmf-dist/tex/latex/epsdice/dice.pdf>]
-LaTeX Font Info:    Trying to load font information for LPH+lmr on input line 50
-8.
-LaTeX Font Info:    No file LPHlmr.fd. on input line 508.
+]
+LaTeX Font Info:    Trying to load font information for LPH+lmr on input line 61
+1.
+LaTeX Font Info:    No file LPHlmr.fd. on input line 611.
 
 
 LaTeX Font Warning: Font shape `LPH/lmr/m/n' undefined
 (Font)              using `LPH/cmr/m/n' instead
-(Font)              for symbol `PHeagle' on input line 508.
+(Font)              for symbol `PHeagle' on input line 611.
 
-[3]
-LaTeX Font Info:    Trying to load font information for U+ifwea on input line 51
-3.
- (/usr/share/texlive/texmf-dist/tex/latex/ifsym/uifwea.fd)
-LaTeX Font Info:    Trying to load font information for U+ding on input line 544
+LaTeX Font Info:    Trying to load font information for U+ifwea on input line 61
+6.
+(/usr/share/texlive/texmf-dist/tex/latex/ifsym/uifwea.fd)
+LaTeX Font Info:    Trying to load font information for U+ding on input line 647
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/bbding/Uding.fd
 File: Uding.fd 1996/02/01 v1.0 BBding font definitions
 )
-<./pinkmoon.jpg, id=34, 240.9pt x 240.9pt>
+<./pinkmoon.jpg, id=29, 240.9pt x 240.9pt>
 File: ./pinkmoon.jpg Graphic file (type jpg)
 <use ./pinkmoon.jpg>
-Package luatex.def Info: ./pinkmoon.jpg  used on input line 550.
+Package luatex.def Info: ./pinkmoon.jpg  used on input line 653.
 (luatex.def)             Requested size: 96.35828pt x 96.35828pt.
- [4<./pinkmoon.jpg>]
-[5]
-LaTeX Font Info:    Trying to load font information for U+ifsym on input line 73
-1.
- (/usr/share/texlive/texmf-dist/tex/latex/ifsym/uifsym.fd) [6]
-Overfull \hbox (26.40884pt too wide) in paragraph at lines 794--795
-[][] 
+ [3<./pinkmoon.jpg>]
+[4]
+LaTeX Font Info:    Trying to load font information for U+ifsym on input line 85
+9.
+ (/usr/share/texlive/texmf-dist/tex/latex/ifsym/uifsym.fd) [5] [6] [7
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no O (U+004F) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+]
+[8] [9]
+Overfull \hbox (17.2404pt too wide) in paragraph at lines 2029--2030
+ [][] 
  []
 
-[7] [8] [9] [10]
+[10
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no O (U+004F) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+Missing character: There is no ; (U+003B) in font nullfont!
+]
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -1448,15 +1543,16 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 )
 
 Here is how much of LuaTeX's memory you used:
- 42738 strings out of 481365
+ 43334 strings out of 481365
  125016,1977958 words of node,token memory allocated
- 720 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 48 attribute, 65 glue_spec
-, 48 attribute_list, 2 write nodes
-   avail lists: 1:10,2:8185,3:2555,4:19,5:207,6:24,7:2587,8:44,9:926,10:1,11:27
- 58453 multiletter control sequences out of 65536+600000
- 75 fonts using 6885915 bytes
- 73i,21n,127p,939b,2267s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 785 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 63 attribute, 66 glue_spec
+, 63 attribute_list, 2 write nodes
+   avail lists: 1:11,2:11876,3:3996,4:34,5:204,6:27,7:3233,8:44,9:1106,10:1,11:3
+6
+ 59025 multiletter control sequences out of 65536+600000
+ 76 fonts using 6930219 bytes
+ 73i,23n,127p,939b,2267s stack positions out of 5000i,500n,10000p,200000b,100000s
 <</home/tom/.texlive2019/texmf-var/fonts/pk/ljfour/public/ifsym/ifsym10.600pk>><
 /usr/share/texmf/fonts/opentype/public/lm/lmroman7-regular.otf><</home/tom/.texl
 ive2019/texmf-var/fonts/pk/ljfour/public/ifsym/ifwea10.600pk>><</home/tom/.texli
@@ -1473,13 +1569,14 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/latxfont/line10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/phaistos/phaistos.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/wasy-
-type1/wasy10.pfb>
-Output written on dingbats2.pdf (11 pages, 204618 bytes).
+blic/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/phaistos/phaistos.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/wasy-ty
+pe1/wasy10.pfb>
+Output written on dingbats2.pdf (11 pages, 240844 bytes).
 
-PDF statistics: 145 PDF objects out of 1000 (max. 8388607)
- 99 compressed objects within 1 object stream
+PDF statistics: 150 PDF objects out of 1000 (max. 8388607)
+ 102 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 131072)
  26 words of extra memory for PDF output out of 10000 (max. 100000000)
 

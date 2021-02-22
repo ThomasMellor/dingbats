@@ -5,6 +5,7 @@
 \let\Square\undefined
 \usepackage{amsmath, amssymb}
 \usepackage{graphicx}
+\usepackage[margin=1cm]{geometry}
 \usepackage{epsdice}
 \usepackage{physics}
 \usepackage{siunitx}
@@ -38,7 +39,7 @@
 \usepackage{mathtools}
 \usetikzlibrary{arrows}
 \usepackage{chessfss}
-
+\usepackage[normalem]{ulem}
 \usepackage{etoolbox}
 \newtoggle{showpct}
 \makeatletter
@@ -130,11 +131,48 @@
 \end{scope}
 }
 
+\def\x2o#1#2#3{
+  \begin{scope}[shift={#1},rotate=#2, inner sep=0pt]
+    \draw  (0,0) node[circle,fill=white] {#3} -- (-0.6,0) node[circle, fill=white] {O} -- ({-0.6+0.6*cos(104.5)},{0.6*sin(104.5)}) node[circle, fill=white] {#3};
+  \end{scope}
+  }
 
+\def\o2#1#2{
+  \begin{scope}[shift={#1},rotate=#2,inner sep=0pt]
+    \draw[double] (0,0) node[circle,fill=white] {O} --(0.6,0) node[circle,fill=white]  {O};
+  \end{scope}
+}
+\def\n2#1#2#3{
+  \begin{scope}[shift={#1},rotate=#2,inner sep=0pt]
+    \foreach \x in {-0.03,0,0.03}{
+      \draw (0,\x) -- (0.6,\x);  
+    }
+    \node[circle,fill=white] at (0,0) {N}; 
+    \node[circle,fill=white] at (0.6,0) {#3};
+  \end{scope}
+}
+\def\nite#1#2{
+  \begin{scope}[shift={#1},rotate=#2,inner sep=0pt]
+    \foreach \x in {0}{
+      \draw (0,\x) -- (0.6,\x);  
+    }
+    \node[circle,fill=white] at (0,0) {Ni}; 
+    \node[circle,fill=white] at (0.6,0) {Te};
+  \end{scope}
+}
+
+
+\def\co2#1#2{
+  \begin{scope}[shift={#1},rotate=#2,inner sep=0pt]
+    \draw[double] (0,0) node[circle,fill=white] {O} -- (0.6,0) node[circle,fill=white] {C} -- (1.2,0) node[circle,fill=white] {O};
+  \end{scope}
+}
+  
 
 \def\rotatechartwo#1{\reflectbox{#1}}
 
 \definecolor{hanpurple}{rgb}{0.32, 0.09, 0.98}
+  \definecolor{newlime}{RGB}{189,255,0}
 
 %\newcommand{\knightB}[1][1.85ex]{%
 %\adjustbox{Trim=3.2pt 2.2pt 3.2pt 0pt, width=#1, raise =-0.03ex,margin=0.14ex 0ex 0.14ex 0ex}{\BlackKnightOnWhite}%
@@ -145,6 +183,71 @@
     \node[inner sep=0pt, xslant=tan(#1)](X){#2};%
 }
 
+\newcommand\Champ[1]{
+\begin{tikzpicture}[y=0.80pt, x=0.80pt, yscale=-1, xscale=1, inner sep=0pt, outer sep=0pt,scale=#1]
+\begin{scope}[cm={{0.03147,0.0,0.0,0.03147,(59.73703,136.50064)}}]
+  \path[fill=black,even odd rule] (52.8050,5.2795) .. controls (52.5830,5.5912)
+    and (52.4650,5.6367) .. (51.6845,5.7102) .. controls (49.0307,5.9611) and
+    (48.1060,6.4614) .. (48.1060,7.6462) .. controls (48.1060,7.8764) and
+    (47.9954,7.9526) .. (47.4173,8.1206) .. controls (46.1137,8.4997) and
+    (45.6142,9.1014) .. (45.5062,10.4230) .. controls (45.4427,11.1982) and
+    (45.4110,11.2699) .. (44.9456,11.6888) .. controls (44.3545,12.2206) and
+    (44.2825,12.5963) .. (44.2696,15.2135) .. controls (44.2606,17.0241) and
+    (44.2820,17.1175) .. (44.7387,17.2580) .. controls (45.1541,17.3860) and
+    (45.2295,17.5522) .. (45.0186,17.8742) .. controls (44.9183,18.0274) and
+    (44.8797,18.2166) .. (44.9315,18.3004) .. controls (44.9829,18.3835) and
+    (45.0136,18.6193) .. (44.9998,18.8240) .. controls (44.9821,19.0878) and
+    (45.0630,19.2794) .. (45.2776,19.4807) -- (45.5806,19.7654) --
+    (45.5806,22.8714) .. controls (45.5806,25.5847) and (45.5570,25.9773) ..
+    (45.3956,25.9773) .. controls (45.2310,25.9773) and (45.2128,26.9121) ..
+    (45.2279,34.5461) .. controls (45.2382,39.7846) and (45.1951,43.6761) ..
+    (45.1165,44.5582) .. controls (45.0461,45.3520) and (44.9302,46.7320) ..
+    (44.8596,47.6250) .. controls (44.5730,51.2408) and (44.0793,54.4044) ..
+    (43.1049,58.8698) .. controls (41.8560,64.5922) and (39.7878,70.4355) ..
+    (36.5284,77.4507) .. controls (33.8545,83.2051) and (32.0720,87.6599) ..
+    (30.9700,91.3413) .. controls (30.8512,91.7382) and (30.7089,92.1983) ..
+    (30.6538,92.3637) .. controls (30.5110,92.7928) and (29.7656,95.7768) ..
+    (29.5876,96.6330) .. controls (29.5050,97.0299) and (29.3907,97.5169) ..
+    (29.3336,97.7154) .. controls (28.7655,99.6908) and (27.8731,106.2876) ..
+    (27.6500,110.1630) .. controls (27.5241,112.3508) and (27.5794,120.3325) ..
+    (27.7299,121.7083) .. controls (27.7625,122.0060) and (27.8683,124.5497) ..
+    (27.9651,127.3609) .. controls (28.2310,135.0902) and (28.3676,138.4162) ..
+    (28.5030,140.4697) .. controls (28.5708,141.4949) and (28.6795,143.4703) ..
+    (28.7449,144.8594) .. controls (28.8105,146.2484) and (28.9179,148.2778) ..
+    (28.9840,149.3692) .. controls (29.1584,152.2492) and (29.4460,157.1763) ..
+    (29.5209,158.5696) .. controls (29.9201,165.9834) and (30.0638,168.1969) ..
+    (30.2943,170.4787) .. controls (30.5133,172.6478) and (31.7196,174.1316) ..
+    (33.5539,174.4879) .. controls (36.6480,175.0893) and (62.8658,175.3283) ..
+    (69.0922,174.8121) .. controls (74.8440,174.3350) and (74.8805,174.2784) ..
+    (75.5838,164.7031) .. controls (75.6856,163.3141) and (75.8219,161.5011) ..
+    (75.8867,160.6743) .. controls (76.0836,158.1563) and (76.5551,151.0681) ..
+    (76.8509,146.1823) .. controls (76.9149,145.1240) and (77.0223,142.8509) ..
+    (77.0895,141.1311) .. controls (77.1567,139.4113) and (77.2636,137.0301) ..
+    (77.3274,135.8395) .. controls (77.3912,134.6488) and (77.4689,133.0523) ..
+    (77.5002,132.2917) .. controls (77.5316,131.5310) and (77.6139,129.9615) ..
+    (77.6830,128.8039) .. controls (78.3317,117.9171) and (78.4143,110.4408) ..
+    (77.9301,106.3744) .. controls (77.0792,99.2246) and (76.0148,94.3020) ..
+    (74.0037,88.2145) .. controls (73.1536,85.6411) and (72.2855,83.5028) ..
+    (69.4833,77.0819) .. controls (65.3867,67.6955) and (63.8397,62.8766) ..
+    (62.3041,54.7206) .. controls (60.9708,47.6396) and (60.8102,44.8784) ..
+    (60.8370,29.5235) -- (60.8542,19.6601) -- (61.1248,19.5405) .. controls
+    (61.3235,19.4527) and (61.3865,19.3360) .. (61.3622,19.1003) .. controls
+    (61.3439,18.9238) and (61.3844,18.7452) .. (61.4524,18.7031) .. controls
+    (61.6114,18.6050) and (61.6140,17.9194) .. (61.4556,17.9194) .. controls
+    (61.2016,17.9194) and (61.3534,17.6919) .. (61.7725,17.4448) --
+    (62.2096,17.1868) -- (62.1514,14.7648) -- (62.0932,12.3428) --
+    (61.6432,11.9650) .. controls (61.2201,11.6099) and (61.1867,11.5316) ..
+    (61.0883,10.6534) .. controls (60.9214,9.1654) and (60.5928,8.7516) ..
+    (59.2484,8.3378) .. controls (58.5774,8.1312) and (58.5692,8.1227) ..
+    (58.5692,7.6679) .. controls (58.5692,6.6577) and (57.6122,6.0587) ..
+    (55.6858,5.8632) .. controls (55.5080,5.8449) and (55.3283,5.7126) ..
+    (55.2397,5.5343) .. controls (54.8748,4.7998) and (53.2664,4.6315) ..
+    (52.8050,5.2795);
+\end{scope}
+\end{tikzpicture}
+}
+
+\newcommand\champagne{\Champ{1.5}}
 
 \begin{document}
 
@@ -577,7 +680,7 @@
 		\begin{tikzpicture}[scale=2]
 			\draw (0,0) -- (3,0);
 			\draw (0,0.25) circle (0.1 and 0.25);
-			\draw (3,0.25) circle (0.1 and 0.25);
+      \draw (3,0.25) circle (0.1 and 0.25) node {$A$};
 			\draw (0,0.5) -- (3,0.5);
 			\draw (1.5,0.25) circle (0.1 and 0.25);
 			\draw (1.8,0.25) circle (0.1 and 0.25);
@@ -585,7 +688,7 @@
 			\draw (1.8,0) --(2.2,0);
 			\draw (1.8,0.5) -- (2.2,0.5);
 			
-			\node at (1.5,-0.5) {$\dv{V}{t} = (2n)\si{\metre^3 \second^{-1}}$, $n \in \mathbb{N}$}; 
+			\node at (1.5,-0.5) {$\dv{V}{t} = uA= (2n)\si{\metre^3 \second^{-1}}$, $n \in \mathbb{N}$}; 
 		\end{tikzpicture}
 	\end{figure}
 	
@@ -650,10 +753,16 @@
 	\end{figure}
 	
 	186) Film [1]
-	\[
-		f_\text{system}(t), \text{ } f_\text{subsystem}(-t)
-	\]
-	
+  
+  Let  $I \subset S,$ $\forall i \in I$,
+  \[
+    m\vec{a}_{i}(t) = m \vec{a}'_{i}(-t)
+  \]
+  where
+  \[
+    m\vec{a}'_{i}(t) = \sum_{j(\neq i) \in I} F_{ji}(t) + \sum_{k \in S\setminus I} F_{ki}(-t)
+  \]
+
 	187) Album/Song [2]
 	\begin{figure}[htbp!]
 	\centering
@@ -722,10 +831,29 @@ c -- [photon] d,
   \]
 
   194) Song [3]
-  \[
-    \textrm{Granite with uranium}
-  \]
-  
+  \begin{table}[htbp!]
+  \begin{tabular}{ll}
+    \hline
+    \hline
+    Material \\
+    composition \\
+    \hline
+    \ce{SiO2} \\
+    \ce{Al2O3} \\
+    \ce{MgO} \\
+    \ce{CaO} \\
+    \ce{FeO} \\
+    \ce{Na2O} \\
+    \ce{K2O} \\
+    \ce{CaCO3} \\
+    and \\
+    \ce{U} \\
+    \hline
+    \hline
+  \end{tabular}
+  \end{table}
+
+
   195) Song [5]
   \[
     \{\text{\Fire}, \ldots,\text{\FilledRainCloud} \} 
@@ -1536,8 +1664,34 @@ c -- [photon] d,
 
     \texttt{\quad print(\ldots}
 
-  208) Film[3]
-
+  208) Film [4]
+  \begin{figure}[htbp!]
+    \begin{tikzpicture}
+      \draw (0,0) rectangle (6,6);
+      \x2o{(2,2.5)}{50}{H};
+      \o2{(3,3)}{100}{O};
+      \o2{(0.5,0.5)}{70};
+      \o2{(2,5)}{0};
+      \n2{(1,3)}{20}{N};
+      \n2{(5,3)}{10}{N};
+      \n2{(5,5)}{90}{N};
+      \n2{(5,1)}{20}{N};
+      \n2{(1,5)}{120}{N};
+      \n2{(2,4)}{50}{N};
+      \n2{(3,0.5)}{80}{N};
+      \x2o{(1.5,4)}{40}{H};
+      \x2o{(5,2)}{30}{H};
+      \co2{(2,1)}{49};
+      \node at (4.5,4.5) {Ar};
+      \draw (1.5,4) -- (-1,5);
+      \draw ({-1-cos(21)},{5+sin(21)}) circle (1);
+      \draw ({-1-cos(21)},{5+sin(21)}) ++ (-30:0.4) circle (0.3) node {u};
+      \draw ({-1-cos(21)},{5+sin(21)}) ++ (90:0.4) circle (0.3) node {u};
+      \draw ({-1-cos(21)},{5+sin(21)}) ++ (210:0.4) circle (0.3) node {d};   
+      \draw[<-] ({-1-cos(21)},{5+sin(21)}) ++ (-30:0.7)  -- (-0.5,4);
+    \end{tikzpicture}
+  \end{figure}
+  
   209) Song [3]
 
 \texttt{if random.random() > 0.5:}
@@ -1687,13 +1841,13 @@ c -- [photon] d,
   220) Series [5]
   \[
     \begin{split}
-      \nu_\text{violet} &= \SI{670}{\tera\hertz}\text{--}\SI{790}{\tera\hertz}\\
-      \nu_\text{blue} &= \SI{620}{\tera\hertz}\text{--}\SI{670}{\tera\hertz} \\
-      \nu_\text{cyan} &= \SI{600}{\tera\hertz}\text{--}\SI{620}{\tera\hertz} \\
-      \nu_\text{green} &= \SI{530}{\tera\hertz}\text{--}\SI{600}{\tera\hertz} \\
-      \nu_\text{yellow} &= \SI{510}{\tera\hertz}\text{--}\SI{530}{\tera\hertz} \\
-      \nu_\text{black} &= \SI{590}{\tera\hertz}\text{--}\SI{625}{\tera\hertz} \\
-      \nu_\text{red} &= \SI{625}{\tera\hertz}\text{--}\SI{700}{\tera\hertz} \\
+      \nu_\text{violet}:\quad&\SI{670}{\tera\hertz}\text{--}\SI{790}{\tera\hertz}\\
+      \nu_\text{blue}: \quad& \SI{620}{\tera\hertz}\text{--}\SI{670}{\tera\hertz} \\
+      \nu_\text{cyan}: \quad& \SI{600}{\tera\hertz}\text{--}\SI{620}{\tera\hertz} \\
+      \nu_\text{green}: \quad& \SI{530}{\tera\hertz}\text{--}\SI{600}{\tera\hertz} \\
+      \nu_\text{yellow}: \quad& \SI{510}{\tera\hertz}\text{--}\SI{530}{\tera\hertz} \\
+      \nu_\text{black}: \quad& \SI{590}{\tera\hertz}\text{--}\SI{625}{\tera\hertz} \\
+      \nu_\text{red}: \quad& \SI{625}{\tera\hertz}\text{--}\SI{700}{\tera\hertz} \\
     \end{split}
   \]
 
@@ -1706,4 +1860,220 @@ c -- [photon] d,
       \text{\Cross}    x 
   \]
 
+  222) Book/Film [3]
+  \[
+    \tau^-_\text{R}, \tau^+_\text{R} 
+  \]
+  
+  223) Song [2]
+    \begin{figure}[htbp!]
+      \begin{tikzpicture}
+        \draw (0,0) circle (0.25) node {Si};
+        \draw[decorate,decoration={zigzag,segment length=1mm, amplitude=.5mm}] (0.25,0) -- (0.5,0);
+        \draw (0.75,0) circle (0.25) node {C};
+        \draw (1.5,0) circle (0.25) node {K};
+        \draw (2.25,0) circle (0.25) node {O};
+        \draw[decorate,decoration={zigzag,segment length=1mm, amplitude=.5mm}] (1,0) -- (1.25,0);
+        \draw[decorate,decoration={zigzag,segment length=1mm, amplitude=.5mm}] (1.75,0) -- (2,0);
+        \draw[->] (0,-0.5) -- ++ (-1.05903/4,0);
+        \draw[->] (0.75,-0.5)--  ++ (-0.591384/4,0);
+        \draw[->] (1.5,-0.5) -- ++ (0.715502/4,0); 
+        \draw[->] (2.25,-0.5)--  ++ (1/4,0);   
+      \end{tikzpicture}
+    \end{figure}
+
+224) Song [2]
+  \[
+    \begin{split}
+      &\text{Selection rules:} \\
+      & \Delta J = 0, \pm 1, \quad (0\nleftrightarrow 0) \\
+      & \Delta K = 0, \pm 1 \\
+      \to& \Delta \nu = 0, \pm 1, \pm 2, \ldots \\
+    \end{split} 
+  \]
+
+  225) Song [3]
+    \[
+      \text{\mybox{Historic Data}} \to \text{\mybox{Algorithm}} \to \text{\mybox{Predictive Model (failed)}} 
+    \]
+
+  226) Book/Series [3]
+  \[
+      \text{hunter}^2
+  \]
+
+  227) Song [3]
+  \[
+    \{\text{Eiffel Tower, Arc de Triomphe, } ni^{as},  \text{ Notre-Dame, Louvre, Champs-\'{E}lys\'{e}es}, \ldots \}  
+  \]
+
+  228) Song [2]
+  \[
+    M_{\champagne} \gtrsim 1.4 M_{\astrosun}
+  \]
+
+  229) Song [1]
+  \begin{figure}[htbp!]
+    \begin{tikzpicture}
+      \node[right] at (0,2) {Wavelength: \SI{588}{\nano\meter}};
+      \node[right] at (0,1.5) {Energy: \SI{2.22}{\electronvolt}};
+      \node[right] at (0,1) {Colour:};
+      \draw[fill= newlime] (0.2,0) rectangle (0.9, 0.7); 
+    \end{tikzpicture}
+  \end{figure}
+
+  230) Film [6]
+  \begin{table}[htbp!]
+    \begin{tabular}{ll}
+      \hline 
+      \hline
+      Particle class & \\
+      \hline
+      \ce{t} and $\bar{\ce{t}}$  & $T= \pm 1$ \\
+      \ce{c} and $\bar{\ce{c}}$  & $C=\pm1$\textleftarrow\\
+      \ce{b} and $\bar{\ce{b}}$ & $B= \mp 1$ \\
+      \hline
+      \hline
+    \end{tabular}
+  \end{table}
+
+  231) Film [3]
+  \[
+    \begin{split}
+      &\texttt{public:} \\
+      &\quad \texttt{int adams = 6;} \\
+      &\quad \texttt{int carragher = 23;} \\
+      &\quad \texttt{int maldini = 3;} \\
+      &\texttt{private: } \\
+      &\quad \texttt{int neville = 2;} \\
+      &\quad \texttt{int giggs = 11;} \\
+      &\quad \texttt{int totti = 10;} \\
+      &\texttt{\ldots} \\
+      &\texttt{ofstream myfile;} \\
+      &\texttt{myfile.open("file.txt");}\\
+      &\texttt{myfile << giggs;}\\
+      &\texttt{\ldots} \\
+    \end{split}
+  \]
+
+  232) Film [2]
+  \[
+    \begin{split} 
+      &\texttt{private:} \\
+      &\quad \texttt{string superman;} \\
+      &\quad \texttt{string batman;} \\
+      &\quad \texttt{string wonderwoman;} \\
+      &\texttt{public:} \\
+      &\quad \texttt{string lexluther;} \\
+      &\quad \texttt{string joker;} \\
+      &\quad \texttt{string penguin;} \\
+    \end{split}
+  \]
+
+  63alt) Song [4]
+  \begin{figure}[htbp!]
+    \begin{tikzpicture}
+      \draw (0,0) rectangle (6,6);
+      \x2o{(2,2.5)}{50}{H};
+      \o2{(3,3)}{100}{O};
+      \o2{(0.5,0.5)}{70};
+      \o2{(2,5)}{0};
+      \nite{(3,5.5)}{0};
+      \nite{(3.7,3)}{0};
+      \n2{(1,3)}{20}{N};
+      \n2{(5,3)}{10}{N};
+      \n2{(5,5)}{90}{N};
+      \n2{(5,1)}{20}{N};
+      \n2{(1,5)}{120}{N};
+      \n2{(2,4)}{50}{N};
+      \n2{(3,0.5)}{80}{N};
+      \x2o{(1.5,4)}{40}{H};
+      \x2o{(5,2)}{30}{H};
+      \co2{(2,1)}{49};
+      \node at (4.5,4.5) {Ar};
+    \end{tikzpicture}
+  \end{figure}
+ 
+
+  233) Song [2]
+  \[
+    I \dot{\theta}, \quad \dot{\theta} \sim \SI{0}{\per\second}
+  \]
+
+  234) Album [3]
+  \begin{figure}[htbp!]
+    \begin{tikzpicture}
+      \draw[->] (-2,0) -- (2,0) node[right] {$x$};
+      \draw[->] (0,-2) -- (0,2) node[above] {$y$};
+      \draw (0,1.5)  -- ({1.5*cos(210)},{1.5*sin(210)}) -- ({1.5*cos(330)}, {1.5*sin(330)}) -- cycle;
+      \fill (0,0) circle (0.05) node[above left] {$\mathcal{O}$};
+      \draw[dashed] ({2*cos(210)},{2*sin(210)}) -- ({2*cos(30)},{2*sin(30)}) node[above right] {$\sigma_v$};
+      \draw[->] ({1.8*cos(330-10)},{1.8*sin(330-10)}) arc (320:340:1.8); 
+      \node[below right] at  ({1.8*cos(330)},{1.8*sin(330)}) {$C_3$};
+      \draw[->] (0.75,-1.5) -- (0,0); 
+    \end{tikzpicture}
+  \end{figure}
+
+  235) Game [1]
+  \begin{figure}[htbp!]
+      \centering
+      \begin{tikzpicture}[shift={(-4,0)},scale=0.9]
+      \draw (0,0) circle (1) node[above] {Saturn};
+      \draw[thick] (-140/60,0) -- (140/60,0);
+      \draw (290/60,0) circle (1/60);
+      \draw (377/60,0) circle (1/60);
+      \draw (527/60,0) circle (1.5/60);
+      \draw (1200/60,0) circle (5/60);
+        \draw[<-] (1200/60,0) -- (1150/60,0.5) node[above left] {$M$};
+      \node at (10,-0.5) {$R_M(\theta) = \frac{R_\text{Saturn}}{1 + e \cos \theta}$};
+    \end{tikzpicture}
+  \end{figure}
+
+  236) Song [5] 
+    \begin{table}[htbp!]
+    \begin{tabular}{l}
+      \sout{$c=\SI{3e8}{\meter\per\second}$} \\
+      \sout{$h=\SI{6.63e-34}{\joule\second}$} \\
+      $G= \SI{6.67e-11}{\metre\tothe{3}\per\kilogram\per\second\tothe{2}}$ \\
+      \sout{$e=\SI{1.602e-19}{\coulomb}$} \\
+      \sout{$\sigma=\SI{5.67e-8}{\joule\per\metre\tothe{2}\per\kelvin\tothe{4}\per\second}$} \\
+    \end{tabular}
+  \end{table}
+
+
+  237) Game [4]
+  \[
+      v > c
+  \]
+
+  238) Game [2]
+  \[
+    \text{World}_2+  \text{SinoJapanese} + 30\text{year} + \text{Vietman}  + \text{Napoleonic} \ldots
+  \]
+
+  239) Game [2]
+  \[
+    V/I = R = 0
+  \]
+
+  240) Game [3]
+
+  \[
+    \text{for matrix holy, holy}_{2,n}
+  \]
+
+  241) Book/Show [2]
+  \begin{figure}[htbp!]
+    \begin{tikzpicture}[scale=1.5]
+      \draw (0,0,0) -- (0,0,1) -- (1,0,1) -- (1,0,0) -- cycle;
+      \draw (0.6,0,0.5) -- (0.6,0.1,0.5) -- (0.5,0.1,0.5);
+      \draw[->] (0.5,0,0.5) -- (0.5,1,0.5) node[right] {person$_1$};
+      \draw[->] (0.5,0,0.5) -- (0.5,-1,0.5) node[right] {person$_2$};
+    \end{tikzpicture}
+  \end{figure}
+
+  242) Book [2]
+  \[
+    F(\rho, \sigma) = \left ( \text{tr} \sqrt{\sqrt{\rho} \sigma \sqrt{\rho}}\right)^2 \gg 0 
+  \]
 \end{document}
