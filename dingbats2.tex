@@ -32,6 +32,20 @@
 \newcommand*{\mybox}[1]{\framebox{#1}}
 \usepackage{halloweenmath}
 
+\makeatletter % from: https://tex.stackexchange.com/a/101263/134144
+\tikzset{
+    dot diameter/.store in=\dot@diameter,
+    dot diameter=1pt,
+    dot spacing/.store in=\dot@spacing,
+    dot spacing=5.5pt,
+    dots/.style={
+        line width=\dot@diameter,
+        line cap=round,
+        dash pattern=on 0pt off \dot@spacing
+    }
+}
+\makeatother
+
 
 \usepackage{pgfplots}
 \pgfplotsset{compat=1.16}
@@ -370,7 +384,7 @@
 	
 	\texttt{try\{ }
 	
-	\texttt{\quad if(ucan)} 
+	\texttt{\quad if(urable)} 
 	
 	\texttt{\quad \quad throw new Exception();}
 	
@@ -542,12 +556,12 @@
       \draw[step=0.25,gray, opacity=0.25, very thin] (-4,-2) grid (4,2);
       \draw[step=1, opacity=0.5, very thin] (-4,-2) grid (4,2);
       \foreach \x in {-180,-135,...,180}{
-        \node[above] at (\x/45,2) {\x$^\circ$};
-        \node[below] at (\x/45,-2) {\x$^\circ$}; 
+        \node[above] at (\x/45,2) {$\x^\circ$};
+        \node[below] at (\x/45,-2) {$\x^\circ$}; 
       }
       \foreach \y in {-180,-90,...,180}{
-        \node[left] at (-4,\y/90) {\y$^\circ$};
-        \node[right] at (4,\y/90) {\y$^\circ$}; 
+        \node[left] at (-4,\y/90) {$\y^\circ$};
+        \node[right] at (4,\y/90) {$\y^\circ$}; 
       }
       \foreach \x in {-0.3,-1.2,-2.6,-3.8}{
         \draw[fill=black]  (\x,0) circle (0.02) node[above] {$\frac{1}{t}$};
@@ -766,10 +780,10 @@
 	187) Album/Song [2]
 	\begin{figure}[htbp!]
 	\centering
-    \chemfig{\vphantom{S}-[@{left,0.5}]C~S(-[6]U-[6]Re)-[@{right,0.5}]}
-    \polymerdelim[height = 5pt, depth=70pt, indice = \!\!n]{left}{right}
+    \chemfig{\vphantom{S}=[@{left,0.5}]C=S(-[6]H-[6,,,,dots]O=[6]Re)=[@{right,0.5}]}
+    \polymerdelim[height = 5pt, depth=95pt, indice = \!\!n]{left}{right}
   \end{figure}	
-	
+	%(-[6]U-[6]Re)
   188)Song [2]
   \begin{figure}[htbp!]
 	\centering
@@ -870,13 +884,14 @@ c -- [photon] d,
   \]
   198) Song[2] 
     \begin{figure}[htbp!]
-      \begin{tikzpicture}
+      \begin{tikzpicture}[scale=1.4]
         \draw (0,0) circle (0.6) node {Star};
         \draw[->](1,0.25) arc (14.04:90-14.04:1);
-        \node[rotate=-90] at (1,-0.05) {\text{MR}};
-        \node at (0,1) {\text{MR}};
+        \draw (1,-0.05) circle (0.2) node {Mr};
+        \draw  (0,1) circle (0.2);
         \draw[->](-0.25,1) arc (90+14.04:360-19:1);
-        \draw[->](-1.5,0) --(0,0.85);
+        \draw[->](-1.5,-0.5) node[left] {this} --(-0.05,0.75);
+        \node[right] at (1.5,0) {Mr: $\omega_\text{axis} =\omega_\text{orbit}$};
       \end{tikzpicture}
     \end{figure}
 
@@ -2018,15 +2033,15 @@ c -- [photon] d,
   \begin{figure}[htbp!]
       \centering
       \begin{tikzpicture}[shift={(-4,0)},scale=0.9]
-      \draw (0,0) circle (1) node[above] {Saturn};
+      \draw (0,0) circle (1) node[above] {$S$};
       \draw[thick] (-140/60,0) -- (140/60,0);
       \draw (290/60,0) circle (1/60);
       \draw (377/60,0) circle (1/60);
       \draw (527/60,0) circle (1.5/60);
       \draw (1200/60,0) circle (5/60);
-        \draw[<-] (1200/60,0) -- (1150/60,0.5) node[above left] {$M$};
-      \node at (10,-0.5) {$R_M(\theta) = \frac{R_\text{Saturn}}{1 + e \cos \theta}$};
-    \end{tikzpicture}
+        \draw[<-] (1200/60,0) -- (1150/60,0.5) node[above left] {$T$};
+        \node at (10,-1) {$r_T(\theta) = \frac{2R_{S}r_{T0}}{R_S + r_{T0} + (r_{T0} - R_S) \cos(\theta-\pi)}, \quad \theta(t=0) = 0, \quad r_T(0) = r_{T0}$};
+      \end{tikzpicture}
   \end{figure}
 
   236) Song [5] 
@@ -2051,9 +2066,9 @@ c -- [photon] d,
     \text{World}_2+  \text{SinoJapanese} + 30\text{year} + \text{Vietman}  + \text{Napoleonic} \ldots
   \]
 
-  239) Game [2]
+  239) Game [4]
   \[
-    V/I = R = 0
+    \dv{R_{\male}}{t} > \SI{0}{\ohm\per\second}
   \]
 
   240) Game [3]
@@ -2075,5 +2090,42 @@ c -- [photon] d,
   242) Book [2]
   \[
     F(\rho, \sigma) = \left ( \text{tr} \sqrt{\sqrt{\rho} \sigma \sqrt{\rho}}\right)^2 \gg 0 
+  \]
+
+  243) Album/Song [6]
+  \[
+    \frac{\astrosun}{7} \times \frac{\astrosun}{7}
+  \]
+
+  244) Album [2]
+  \[
+    r_\text{photos}'(t) \neq 0 
+  \]
+
+  245) Game [2]
+  \[
+    R = \SI{0}{\ohm}
+  \]
+
+  246) Film [2]
+  \begin{figure}[htbp!]
+    \begin{tikzpicture}
+      \draw[->] (0.75,-0.15,-2) node[above right] {$I$}  -- (0.75,-0.15,-0.5); 
+      \draw[fill=white] (0,0,0) -- (0,0,5) -- (1.5,0,5) -- (1.5,0,0) -- cycle;
+      \draw (0,0,5) -- (0,-0.3,5) -- (1.5,-0.3,5) -- (1.5,0,5);
+      \draw (1.5,-0.3,5) -- (1.5,-0.3,0) --(1.5,0,0);
+      \draw[->] (0.75,-0.15,5) -- (0.75,-0.15,7) node[below left] {$I$};
+      \draw[->] (0.75,0,2.5) -- (0.75,2,2.5) node[above] {$B$};
+      \foreach \z in {0.75,1.5,...,4.5}{
+        \node at (0.3,0,\z) {$e^-$};
+        \node at (1.2,0,\z) {$+$};
+      }
+      \draw[->] (1.5,0,-1) -- (0,0,-1) node[left] {$E$};
+    \end{tikzpicture}
+  \end{figure}
+  
+  247) Song [4]
+  \[
+     \text{Troubles}'(\$) > 0
   \]
 \end{document}
