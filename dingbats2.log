@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2021.1.27)  7 MAR 2021 15:37
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2021.1.27)  15 MAR 2021 15:29
  restricted system commands enabled.
 **dingbats2.tex
 (./dingbats2.tex
@@ -1456,7 +1456,7 @@ Package luatex.def Info: ./pinkmoon.jpg  used on input line 667.
  [3<./pinkmoon.jpg>]
 [4]
 LaTeX Font Info:    Trying to load font information for U+ifsym on input line 87
-3.
+2.
  (/usr/share/texlive/texmf-dist/tex/latex/ifsym/uifsym.fd) [5] [6] [7
 Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no O (U+004F) in font nullfont!
@@ -1475,7 +1475,7 @@ Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
 ]
 [8] [9]
-Overfull \hbox (17.2404pt too wide) in paragraph at lines 2044--2045
+Overfull \hbox (17.2404pt too wide) in paragraph at lines 2043--2044
  [][] 
  []
 
@@ -1545,10 +1545,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of LuaTeX's memory you used:
  43420 strings out of 481365
  125016,1977958 words of node,token memory allocated
- 797 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 66 attribute, 66 glue_spec
-, 66 attribute_list, 2 write nodes
-   avail lists: 1:11,2:11871,3:3998,4:34,5:204,6:27,7:3224,8:56,9:1078,10:1,11:4
+ 793 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 65 attribute, 66 glue_spec
+, 65 attribute_list, 2 write nodes
+   avail lists: 1:11,2:11873,3:3998,4:34,5:244,6:27,7:3224,8:56,9:1078,10:1,11:4
 0
  59111 multiletter control sequences out of 65536+600000
  76 fonts using 6930219 bytes
@@ -1574,7 +1574,7 @@ txfont/line10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/sym
 bols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbo
 ls/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/phaistos/phaisto
 s.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/wasy-type1/wasy10.pfb>
-Output written on dingbats2.pdf (12 pages, 258273 bytes).
+Output written on dingbats2.pdf (12 pages, 258293 bytes).
 
 PDF statistics: 161 PDF objects out of 1000 (max. 8388607)
  110 compressed objects within 2 object streams
