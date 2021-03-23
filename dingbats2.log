@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2021.1.27)  15 MAR 2021 15:29
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2021.3.23)  23 MAR 2021 17:11
  restricted system commands enabled.
 **dingbats2.tex
 (./dingbats2.tex
@@ -360,7 +360,10 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
-)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count282
 \lst@gtempboxa=\box57
@@ -1447,17 +1450,11 @@ LaTeX Font Info:    Trying to load font information for U+ding on input line 661
 
 (/usr/share/texlive/texmf-dist/tex/latex/bbding/Uding.fd
 File: Uding.fd 1996/02/01 v1.0 BBding font definitions
-)
-<./pinkmoon.jpg, id=29, 240.9pt x 240.9pt>
-File: ./pinkmoon.jpg Graphic file (type jpg)
-<use ./pinkmoon.jpg>
-Package luatex.def Info: ./pinkmoon.jpg  used on input line 667.
-(luatex.def)             Requested size: 96.35828pt x 96.35828pt.
- [3<./pinkmoon.jpg>]
-[4]
+) [3] [4]
 LaTeX Font Info:    Trying to load font information for U+ifsym on input line 87
-2.
- (/usr/share/texlive/texmf-dist/tex/latex/ifsym/uifsym.fd) [5] [6] [7
+8.
+
+(/usr/share/texlive/texmf-dist/tex/latex/ifsym/uifsym.fd) [5] [6] [7
 Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no O (U+004F) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
@@ -1473,9 +1470,9 @@ Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
-]
-[8] [9]
-Overfull \hbox (17.2404pt too wide) in paragraph at lines 2043--2044
+] [8]
+[9]
+Overfull \hbox (17.2404pt too wide) in paragraph at lines 2049--2050
  [][] 
  []
 
@@ -1497,7 +1494,7 @@ Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
 Missing character: There is no ; (U+003B) in font nullfont!
-]
+] [11]
 The property list \polyglossia@langsetup contains the pairs (without outer
 braces):
 >  {latex/script}  =>  {latin}
@@ -1532,7 +1529,7 @@ braces):
 >  {english/babelname}  =>  {american}
 >  {english/localnumeral}  =>  {polyglossia@C@localnumeral}
 >  {english/Localnumeral}  =>  {polyglossia@C@localnumeral}.
- [11] [12] (./dingbats2.aux
+ [12] (./dingbats2.aux
 LaTeX Info: Redefining \rmfamily on input line 2.
 LaTeX Info: Redefining \sffamily on input line 2.
 LaTeX Info: Redefining \ttfamily on input line 2.
@@ -1543,14 +1540,14 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 )
 
 Here is how much of LuaTeX's memory you used:
- 43420 strings out of 481365
+ 43491 strings out of 481365
  125016,1977958 words of node,token memory allocated
- 793 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 65 attribute, 66 glue_spec
-, 65 attribute_list, 2 write nodes
-   avail lists: 1:11,2:11873,3:3998,4:34,5:244,6:27,7:3224,8:56,9:1078,10:1,11:4
+ 805 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 68 attribute, 66 glue_spec
+, 68 attribute_list, 2 write nodes
+   avail lists: 1:11,2:11867,3:3998,4:34,5:244,6:27,7:3224,8:56,9:1078,10:1,11:4
 0
- 59111 multiletter control sequences out of 65536+600000
+ 59181 multiletter control sequences out of 65536+600000
  76 fonts using 6930219 bytes
  73i,23n,127p,939b,2267s stack positions out of 5000i,500n,10000p,200000b,100000s
 <</home/tom/.texlive2019/texmf-var/fonts/pk/ljfour/public/ifsym/ifsym10.600pk>><
@@ -1574,9 +1571,9 @@ txfont/line10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/sym
 bols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbo
 ls/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/phaistos/phaisto
 s.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/wasy-type1/wasy10.pfb>
-Output written on dingbats2.pdf (12 pages, 258293 bytes).
+Output written on dingbats2.pdf (12 pages, 243635 bytes).
 
-PDF statistics: 161 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 160 PDF objects out of 1000 (max. 8388607)
  110 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 131072)
  26 words of extra memory for PDF output out of 10000 (max. 100000000)

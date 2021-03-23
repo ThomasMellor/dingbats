@@ -12,7 +12,7 @@
 \usepackage[version=4]{mhchem}
 \usepackage[utf8x]{inputenc}
 \usepackage{pifont}
-\usepackage{xcolor}
+\usepackage[dvipsnames]{xcolor}
 \usepackage{listings}
 \usepackage{wasysym}
 \usepackage{tikz}
@@ -661,10 +661,16 @@
 	\frac{\in \text{\Plane}}{C}
 	\]
 	
-	178) Album/Song [2]
+	178) Album/Song [2] and Album/Song [1] and Series [2]
 	\begin{figure}[htbp!]
-	\centering
-		\includegraphics[scale=0.4]{./pinkmoon.jpg}
+	  \begin{tikzpicture}
+	\fill[black] (0,0) circle (0.8);
+	\fill[blue] (5,0) circle (0.25);
+        \draw (5 + 0.968246,0.25) arc (14.47:360-14.47:1);
+	\fill[CarnationPink] (6,0) circle (0.12);
+        \draw (4.98097349046,0.43577871373) arc (5:20:5); 
+        \draw (4.69846310393, -1.71010071663) arc (340:355:5); 
+        \end{tikzpicture}
 	\end{figure}
 	
 	179)  Song [3]
@@ -2062,7 +2068,7 @@ c -- [photon] d,
 
   238) Game [2]
   \[
-    \text{World}_2+  \text{SinoJapanese} + 30\text{year} + \text{Vietman}  + \text{Napoleonic} \ldots
+	  \sum_i \text{(conflict)}_i
   \]
 
   239) Game [4]
@@ -2127,4 +2133,23 @@ c -- [photon] d,
   \[
      \text{Troubles}'(\$) > 0
   \]
+
+  248) Song [3]
+  \[
+	  \int \vec{F}_{\female_1}\cdot \dd{\vec{r}}, \quad \underbrace{\int \vec{F}_{\female_2}\cdot \dd{\vec{r}}}_{\text{this}}, \quad \int \vec{F}_{\female_3}\cdot \dd{\vec{r}}
+  \]
+
+  249) Album/Song [7]
+  \[
+	\frac{m v_{\female_i}^2}{r_{\female_i}} = \frac{GM}{r_{\female_i}^2}, \quad i \in \{1, \ldots, n\}, \quad  \frac{m v_{\male_j}^2}{r_{\male_j}} = \frac{GM}{r_{\male_j}^2}, \quad j \in \{1, \ldots, m\}
+\]
+
+250) Series [3]
+\[\begin{split}
+	&\text{C++:} \\
+	&\texttt{Conflicts a("world1", "world2");} \\
+	\rightarrow&\texttt{Conflicts b = a;} \\
+ \end{split}
+\]
+
 \end{document}
