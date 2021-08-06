@@ -277,7 +277,7 @@
 
   3 Song [3]
   \[
-  \heartsuit = \partial^{\mu}\partial_{\mu}
+  \heartsuit = \frac{1}{c^2}\pdv[2]{}{t} - \pdv[2]{}{x} - \pdv[2]{}{y} - \pdv[2]{}{z} 
   \]
 
   4 Film [1]
@@ -505,7 +505,7 @@
 
   39 Film/Game [1]
   \[
-  \frac{a}{b}\sqrt{-1} = \frac{a+b}{a}\sqrt{-1}
+  \frac{c}{d}\sqrt{-1} = \frac{c+d}{c}\sqrt{-1}
   \]
 
   40 Film [1]
@@ -641,7 +641,7 @@
   \begin{figure}[htbp!]
   \centering
     \begin{tikzpicture}
-      \draw (0,0) --(2,0)  node[right] {Distressed};
+      \draw (0,0) --(2,0)  node[right] {Sad};
       \draw (0,2) -- (2,2);
       \draw[->] (1,0) -- (1,2);
       
@@ -665,7 +665,7 @@
 
   57 Book [2]
   \[
-    \text{Equus} \leq \text{Canis} \leq \text{Suidae}
+    \text{Horse} \leq \text{Dog} \leq \text{Pig}
   \]
 
   58 Song [3]
@@ -800,7 +800,7 @@
     \]
 
     73) Game [1]
-    \begin{figure}
+    \begin{figure}[htbp!]
       \begin{tikzpicture}[scale=4]
         \draw(0,0.6) -- (0,0);
         \draw(0.5,0.6) -- (0.5,0.0);
@@ -832,7 +832,7 @@
        \]   
 
     76) Song [4]
-      \begin{figure}
+      \begin{figure}[htbp!]
     \begin{tikzpicture}[
     baseline=(nucleus.base),
     nucleus options/.style = {draw=black!80,fill=black!10,opacity=.25},
@@ -903,7 +903,7 @@
 
       79) Album/Song [3]
       \[
-        \text{AgdB}
+        \text{Ag}\si{\deci\bel}
       \]
 
       80) Film [3]
@@ -927,7 +927,7 @@
       \]
     82) Book/Film [4]
     \[
-      \text{For group element \PHeagle, smallest } m \text{ such that } \text{\PHeagle}^m = e
+      \text{For group element \PHeagle, smallest } m \text{ such that } \text{\PHeagle}^m = E
     \]
 
     83) Film [3]
@@ -963,8 +963,15 @@
 
     88) Film (Sophus Lie...) [1]
     \[
-      a\mathcal{L}_{N}(S)
-    \]
+      a\mathcal{L}_{N}(S)    
+\]
+
+		\[
+		\begin{split}
+			&[\cdot,\cdot]: \mathfrak{g} \times \mathfrak{g} \to \mathfrak{g}	\\
+			&	a[n,s] \\
+		\end{split}	
+\]
 
     89) Film [2]
   \[
@@ -1012,14 +1019,15 @@
     \underbrace{e^n} -\underbrace{d} + \underbrace{\text{\fontspec{Symbola.ttf} 👂}} + \underbrace{\male t}
   \]
 
-  97) Albums/Songs [3]
-    \begin{figure}
+  97) Album/Songs [3]
+    \begin{figure}[htbp!]
       \begin{tikzpicture}[scale=0.16]
       \draw[]  (4,1) ..controls +(120:2cm)
         and +(90:2cm) .. (0,0) .. controls  +(-90:2cm) and +(90:3cm) ..
         (4,-8) .. controls +(90:3cm) and +(-90:2cm) ..(8,0)  .. controls
         +(90:2cm) and  +(60:2cm) .. (4,1);
-        \draw[<->] (-30,0) node[above] {$\psi(x)$} -- (-30,-8) -- (35,-8) node[right] {$x$};
+				\draw[->] (-23,5) node[left] {wavefunction} -- (-19,1);
+	      \draw[<->] (-30,0)   -- (-30,-8) -- (35,-8);
         \draw[smooth, samples=100, domain=-30:0.67] plot (\x, {4*sin(deg(0.4*\x)-deg(4))-4});
         \draw[smooth, samples=100, domain=0.67:5.5] plot (\x, {4*exp(-0.3*\x+0.67*0.3)-5.7});
         \draw[smooth, samples=100, domain=5.5:35] plot (\x, {1.65*sin(deg(0.4*\x)-deg(0.3))-6.35});
@@ -1033,7 +1041,7 @@
   
 
     98) Film [6]
-    \begin{figure}
+    \begin{figure}[htbp!]
       \begin{tikzpicture}
         \draw[-] (0,0) -- (2,0) -- (2,2) -- (0,2) -- (0,0);
         \node at (1,1) {\text{Night}};
@@ -1068,7 +1076,7 @@
     \]
 
     102) Film [3]
-    \begin{figure}
+    \begin{figure}[htbp!]
       \begin{tikzpicture}
         \draw[-] (0,0) -- (60:1) node[left] {Today} -- (60:2);
         \draw[-] (60:2) -- +(300:1) node[right] {Yesterday} -- (2,0);
@@ -1099,7 +1107,7 @@
     \]
 
     106) Show [3]
-    \begin{figure}
+    \begin{figure}[htbp!]
       \begin{tikzpicture}
         \node at (0,0) {$xy + xz = x(y+z)$};
         \draw[->] (0,-0.5) -- (0.3, -0.15);
@@ -1107,7 +1115,7 @@
     \end{figure}
     
     107) Film [2]
-    \begin{figure}
+    \begin{figure}[htbp!]
       \begin{tikzpicture} 
         \draw[->] node[below left] {e$^+$} (0,0) -- node[above]{$\vec{F}$} (1,0.5) ;
         \draw[<-]   (2,1) -- node[above] {$\vec{F}$} (3,1.5)  node[above right] {e$^-$};
@@ -1126,7 +1134,7 @@
     
     110) Film [2]
     \[
-      \text{Semester} \in (8  \lor 2)
+      \text{term} \in (8  \lor 2)
     \]
 
     111) Film [4]
@@ -1136,7 +1144,7 @@
           0 & -1 & 0 \\
           0 & 0  & 1 \\
         \end{pmatrix}
-        \text{Luke} 
+    		\text{\symking}     
     \]
 
     112) Film [2]
@@ -1165,7 +1173,7 @@
     \]
 
     117) Film [2]
-    \begin{figure}
+    \begin{figure}[htbp!]
       \begin{tikzpicture}[rotate=180]
         \draw[fill=red] (0,0) circle (1.15 and 1);
         \draw[fill = white] (0,0) circle (0.95);
@@ -1211,7 +1219,7 @@
         \draw (0,-0.3) -- (0,-0.5);
         \draw (2,0.3) -- (2,0.5);
         \draw[->] (2,-0.3) -- (2,-0.5);
-        ;
+        \node at (1,-1) {Te spin $\frac12$};
       \end{tikzpicture}
     \end{figure}
 
@@ -1382,7 +1390,7 @@
 
     137) Song [4]
     \[
-      \boldsymbol{1}.034\boldsymbol{1}28\boldsymbol{1}7392 = \int_{0}^{\infty} t \lambda e^{-t/\lambda} \dd{t}
+      \boldsymbol{1}.034\boldsymbol{1}28\boldsymbol{1}73\SI{92}{\second}= \int_{0}^{\infty} t \lambda e^{-t/\lambda} \dd{t}
     \] 
 
     138) Song [2]
